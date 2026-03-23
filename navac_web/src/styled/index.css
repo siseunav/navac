@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+    color:rgb(113, 93, 93);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Wrapper {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+.Text {
+    font-size: 24px;
+}
+
+.div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  padding:50px 0px;  
+}
+
+.Title {
+    font-size:  42px;
+    display: flex;
+}
+
+.Form {
+    margin-top:  50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+}
+
+.Input {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border:rgb(33, 83, 83);
+    background-color: rgb(157, 217, 217);
+    background-size:cover;
+    width: 100%;
+    outline-color: rgb(191, 169, 88);
+    font-size:16px;
+    &[type="submit"] {
+        cursor:grab;
+    }
+}
+
+.background-image{
+    background-image:url("./imgs/cloudelogo.svg");
+}
+
+.App {
+    cursor: url("./imgs/cursor.svg"), auto ;
+}
