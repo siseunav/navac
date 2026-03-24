@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>연예인 모드 해제</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: linear-gradient(135deg, #f3e5f5, #e3f2fd);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+                overflow: hidden;
+            }
+
+            .card {
+                background: white;
+                padding: 40px;
+                border-radius: 20px;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+                text-align: center;
+                width: 340px;
+                position: relative;
+                z-index: 1;
+            }
+
+            h1 {
+                font-size: 1.8em;
+                color: #6a1b9a;
+                margin-bottom: 20px;
+            }
+
+            .photo,
+            video {
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 20px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+                transition: transform 0.4s ease;
+            }
+
+            .photo.active {
+                transform: scale(1.1) rotate(2deg);
+            }
+            .photo.enlarged,
+            video.enlarged {
+                transform: scale(2); /* 클릭 시 확대 */
+                z-index: 10;
+                position: relative;
+            }
+
+            button {
+                padding: 14px 28px;
+                font-size: 1.1em;
+                background-color: #8e24aa;
+                color: white;
+                border: none;
+                border-radius: 12px;
+                cursor: pointer;
+            }
+
+            #status {
+                margin-top: 25px;
+                font-size: 1.3em;
+                color: #2e7d32;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+            }
+
+            #status.active {
+                opacity: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="card">
+            <h1>연예인 모드: <span id="mode">활성화</span></h1>
+
+            <img src="iu.jpg" alt="프로필 사진" class="photo" id="photo" />
+
+            <button id="toggleBtn" onclick="toggleMode()">
+                연예인 모드 해제하기
+            </button>
+
+            <div id="status"></div>
+        </div>
+
+        <script>
+            let isCelebrityMode = true;
+            //클릭시 video mode.
+            const card = document.querySelector(".card");
+            const modeText = document.getElementById("mode");
+            const status = document.getElementById("status");
+            const photo = document.getElementById("photo");
+            const button = document.getElementById("toggleBtn"); // 여기서 버튼 가져오기
+            // 사진 클릭 시 확대/축소
+            photo.addEventListener("click", function () {
+                photo.classList.toggle("enlarged");
+            });
+            button.addEventListener("click", function () {
+                if (isCelebrityMode) {
+                    isCelebrityMode = false;
+                    modeText.textContent = "비활성화됨";
+                    status.textContent = "🎉 당신은 해적왕!";
+                    status.classList.add("active");
+
+                    photo.src = "rupie's watermark.jpeg";
+                    photo.classList.add("active");
+                    //photo.classList.add("enlarged");
+
+                    // 버튼 글씨 바꾸기
+                    button.textContent = "해정왕 IU 등장👯‍♂️";
+                } else {
+                    isCelebrityMode = true;
+                    modeText.textContent = "활성화";
+                    status.textContent = "";
+                    status.classList.remove("active");
+
+                    photo.src = "iu.jpg";
+                    photo.classList.remove("active");
+                    photo.classList.remove("enlarged");
+                    // 버튼 글씨 원래대로
+                    button.textContent = "연예인 모드 해제하기";
+                }
+            });
+        </script>
+    </body>
+</html>
