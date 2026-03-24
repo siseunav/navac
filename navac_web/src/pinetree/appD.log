@@ -1283,3 +1283,744 @@ GMT TIME   : 2026-03-24 20:36:52
 ✅ 219.250.36.130:53 : OK (20 ms)
 ✅ github.com:443 : OK (87 ms)
 ✅ stackoverflow.com:443 : OK (95 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:37:03
+GMT TIME   : 2026-03-24 20:37:03
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (97 ms)
+🚨 google.com:443 : FAIL
+✅ youtube.com:443 : OK (95 ms)
+✅ facebook.com:443 : OK (37 ms)
+🚨 amazon.com:443 : FAIL
+✅ naver.com:80 : OK (54 ms)
+✅ naver.com:443 : OK (40 ms)
+✅ daum.net:443 : OK (82 ms)
+✅ kakao.com:443 : OK (51 ms)
+✅ aws.amazon.com:443 : OK (33 ms)
+✅ azure.microsoft.com:443 : OK (26 ms)
+✅ 8.8.8.8:53 : OK (70 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (0 ms)
+✅ 168.126.63.2:53 : OK (0 ms)
+✅ 94.140.14.14:53 : OK (80 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (80 ms)
+✅ 94.140.14.141:53 : OK (60 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (90 ms)
+✅ 164.124.101.2:53 : OK (0 ms)
+✅ 203.248.252.2:53 : OK (20 ms)
+✅ 210.220.163.82:53 : OK (0 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (84 ms)
+✅ stackoverflow.com:443 : OK (53 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:37:15
+GMT TIME   : 2026-03-24 20:37:15
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (122 ms)
+✅ google.com:443 : OK (90 ms)
+✅ youtube.com:443 : OK (86 ms)
+✅ facebook.com:443 : OK (29 ms)
+✅ amazon.com:443 : OK (306 ms)
+✅ naver.com:80 : OK (61 ms)
+✅ naver.com:443 : OK (41 ms)
+✅ daum.net:443 : OK (46 ms)
+✅ kakao.com:443 : OK (51 ms)
+✅ aws.amazon.com:443 : OK (45 ms)
+✅ azure.microsoft.com:443 : OK (50 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (70 ms)
+✅ 9.9.9.9:53 : OK (50 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (60 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (40 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (35 ms)
+✅ stackoverflow.com:443 : OK (57 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:37:24
+GMT TIME   : 2026-03-24 20:37:24
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (99 ms)
+✅ google.com:443 : OK (90 ms)
+✅ youtube.com:443 : OK (99 ms)
+✅ facebook.com:443 : OK (48 ms)
+✅ amazon.com:443 : OK (319 ms)
+✅ naver.com:80 : OK (82 ms)
+✅ naver.com:443 : OK (61 ms)
+✅ daum.net:443 : OK (62 ms)
+✅ kakao.com:443 : OK (103 ms)
+✅ aws.amazon.com:443 : OK (101 ms)
+✅ azure.microsoft.com:443 : OK (151 ms)
+✅ 8.8.8.8:53 : OK (60 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (0 ms)
+✅ 1.0.0.1:53 : OK (0 ms)
+✅ 168.126.63.1:53 : OK (0 ms)
+✅ 168.126.63.2:53 : OK (0 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (70 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (60 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (80 ms)
+✅ 208.67.220.220:53 : OK (80 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (42 ms)
+✅ stackoverflow.com:443 : OK (72 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:37:35
+GMT TIME   : 2026-03-24 20:37:35
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (95 ms)
+✅ google.com:443 : OK (145 ms)
+✅ youtube.com:443 : OK (230 ms)
+✅ facebook.com:443 : OK (46 ms)
+✅ amazon.com:443 : OK (283 ms)
+✅ naver.com:80 : OK (83 ms)
+✅ naver.com:443 : OK (41 ms)
+✅ daum.net:443 : OK (73 ms)
+✅ kakao.com:443 : OK (87 ms)
+✅ aws.amazon.com:443 : OK (63 ms)
+✅ azure.microsoft.com:443 : OK (60 ms)
+✅ 8.8.8.8:53 : OK (60 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (0 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (60 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (90 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (92 ms)
+✅ stackoverflow.com:443 : OK (66 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:37:45
+GMT TIME   : 2026-03-24 20:37:45
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (119 ms)
+✅ google.com:443 : OK (102 ms)
+✅ youtube.com:443 : OK (113 ms)
+✅ facebook.com:443 : OK (47 ms)
+✅ amazon.com:443 : OK (273 ms)
+✅ naver.com:80 : OK (47 ms)
+✅ naver.com:443 : OK (38 ms)
+✅ daum.net:443 : OK (42 ms)
+✅ kakao.com:443 : OK (58 ms)
+✅ aws.amazon.com:443 : OK (75 ms)
+✅ azure.microsoft.com:443 : OK (32 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (80 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (0 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (50 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (100 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (58 ms)
+✅ stackoverflow.com:443 : OK (50 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:37:54
+GMT TIME   : 2026-03-24 20:37:54
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (97 ms)
+✅ google.com:443 : OK (189 ms)
+✅ youtube.com:443 : OK (76 ms)
+✅ facebook.com:443 : OK (43 ms)
+✅ amazon.com:443 : OK (246 ms)
+✅ naver.com:80 : OK (60 ms)
+✅ naver.com:443 : OK (44 ms)
+✅ daum.net:443 : OK (62 ms)
+✅ kakao.com:443 : OK (62 ms)
+✅ aws.amazon.com:443 : OK (51 ms)
+✅ azure.microsoft.com:443 : OK (27 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (70 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+🚨 1.0.0.1:53 : FAIL
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (70 ms)
+✅ 94.140.14.141:53 : OK (60 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (180 ms)
+✅ 208.67.220.220:53 : OK (90 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (64 ms)
+✅ stackoverflow.com:443 : OK (49 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:38:05
+GMT TIME   : 2026-03-24 20:38:05
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (149 ms)
+✅ google.com:443 : OK (106 ms)
+✅ youtube.com:443 : OK (131 ms)
+✅ facebook.com:443 : OK (31 ms)
+✅ amazon.com:443 : OK (280 ms)
+✅ naver.com:80 : OK (42 ms)
+✅ naver.com:443 : OK (36 ms)
+✅ daum.net:443 : OK (42 ms)
+✅ kakao.com:443 : OK (70 ms)
+✅ aws.amazon.com:443 : OK (59 ms)
+✅ azure.microsoft.com:443 : OK (106 ms)
+✅ 8.8.8.8:53 : OK (80 ms)
+✅ 8.8.4.4:53 : OK (50 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (80 ms)
+✅ 9.9.9.9:53 : OK (30 ms)
+✅ 94.140.14.140:53 : OK (70 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (80 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (71 ms)
+✅ stackoverflow.com:443 : OK (58 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:38:15
+GMT TIME   : 2026-03-24 20:38:15
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (134 ms)
+✅ google.com:443 : OK (94 ms)
+✅ youtube.com:443 : OK (86 ms)
+✅ facebook.com:443 : OK (30 ms)
+✅ amazon.com:443 : OK (267 ms)
+✅ naver.com:80 : OK (50 ms)
+✅ naver.com:443 : OK (48 ms)
+✅ daum.net:443 : OK (77 ms)
+✅ kakao.com:443 : OK (55 ms)
+✅ aws.amazon.com:443 : OK (32 ms)
+✅ azure.microsoft.com:443 : OK (30 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (70 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (110 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (79 ms)
+✅ stackoverflow.com:443 : OK (51 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:38:24
+GMT TIME   : 2026-03-24 20:38:24
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (99 ms)
+✅ google.com:443 : OK (100 ms)
+✅ youtube.com:443 : OK (105 ms)
+✅ facebook.com:443 : OK (41 ms)
+✅ amazon.com:443 : OK (250 ms)
+✅ naver.com:80 : OK (48 ms)
+✅ naver.com:443 : OK (39 ms)
+✅ daum.net:443 : OK (48 ms)
+✅ kakao.com:443 : OK (49 ms)
+✅ aws.amazon.com:443 : OK (43 ms)
+✅ azure.microsoft.com:443 : OK (27 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (50 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (80 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (110 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (54 ms)
+✅ stackoverflow.com:443 : OK (61 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:38:33
+GMT TIME   : 2026-03-24 20:38:33
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (120 ms)
+✅ google.com:443 : OK (120 ms)
+✅ youtube.com:443 : OK (94 ms)
+✅ facebook.com:443 : OK (32 ms)
+✅ amazon.com:443 : OK (304 ms)
+✅ naver.com:80 : OK (29 ms)
+✅ naver.com:443 : OK (57 ms)
+✅ daum.net:443 : OK (61 ms)
+✅ kakao.com:443 : OK (79 ms)
+✅ aws.amazon.com:443 : OK (69 ms)
+✅ azure.microsoft.com:443 : OK (47 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (0 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (0 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (180 ms)
+✅ 208.67.220.220:53 : OK (40 ms)
+✅ 164.124.101.2:53 : OK (20 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (20 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (76 ms)
+✅ stackoverflow.com:443 : OK (52 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:38:43
+GMT TIME   : 2026-03-24 20:38:43
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (421 ms)
+✅ google.com:443 : OK (134 ms)
+✅ youtube.com:443 : OK (123 ms)
+✅ facebook.com:443 : OK (42 ms)
+✅ amazon.com:443 : OK (235 ms)
+✅ naver.com:80 : OK (58 ms)
+✅ naver.com:443 : OK (52 ms)
+✅ daum.net:443 : OK (76 ms)
+✅ kakao.com:443 : OK (63 ms)
+✅ aws.amazon.com:443 : OK (55 ms)
+✅ azure.microsoft.com:443 : OK (65 ms)
+✅ 8.8.8.8:53 : OK (40 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (0 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (0 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (50 ms)
+✅ 208.67.220.220:53 : OK (40 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (60 ms)
+✅ stackoverflow.com:443 : OK (48 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:38:53
+GMT TIME   : 2026-03-24 20:38:53
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (75 ms)
+✅ google.com:443 : OK (119 ms)
+✅ youtube.com:443 : OK (102 ms)
+✅ facebook.com:443 : OK (54 ms)
+✅ amazon.com:443 : OK (317 ms)
+✅ naver.com:80 : OK (48 ms)
+✅ naver.com:443 : OK (49 ms)
+✅ daum.net:443 : OK (58 ms)
+✅ kakao.com:443 : OK (49 ms)
+✅ aws.amazon.com:443 : OK (42 ms)
+✅ azure.microsoft.com:443 : OK (35 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (0 ms)
+✅ 168.126.63.2:53 : OK (20 ms)
+✅ 94.140.14.14:53 : OK (70 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (80 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (50 ms)
+✅ 208.67.220.220:53 : OK (60 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (20 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (47 ms)
+✅ stackoverflow.com:443 : OK (52 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:39:02
+GMT TIME   : 2026-03-24 20:39:02
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (137 ms)
+✅ google.com:443 : OK (84 ms)
+✅ youtube.com:443 : OK (90 ms)
+✅ facebook.com:443 : OK (31 ms)
+✅ amazon.com:443 : OK (281 ms)
+✅ naver.com:80 : OK (49 ms)
+✅ naver.com:443 : OK (50 ms)
+✅ daum.net:443 : OK (43 ms)
+✅ kakao.com:443 : OK (60 ms)
+✅ aws.amazon.com:443 : OK (41 ms)
+✅ azure.microsoft.com:443 : OK (143 ms)
+✅ 8.8.8.8:53 : OK (60 ms)
+✅ 8.8.4.4:53 : OK (50 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (20 ms)
+✅ 168.126.63.1:53 : OK (20 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (100 ms)
+✅ 9.9.9.9:53 : OK (50 ms)
+✅ 94.140.14.140:53 : OK (70 ms)
+✅ 94.140.14.141:53 : OK (80 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (40 ms)
+✅ 208.67.220.220:53 : OK (50 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (20 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (74 ms)
+✅ stackoverflow.com:443 : OK (46 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:39:12
+GMT TIME   : 2026-03-24 20:39:12
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (104 ms)
+✅ google.com:443 : OK (117 ms)
+✅ youtube.com:443 : OK (119 ms)
+✅ facebook.com:443 : OK (49 ms)
+✅ amazon.com:443 : OK (246 ms)
+✅ naver.com:80 : OK (56 ms)
+✅ naver.com:443 : OK (51 ms)
+✅ daum.net:443 : OK (55 ms)
+✅ kakao.com:443 : OK (52 ms)
+✅ aws.amazon.com:443 : OK (58 ms)
+✅ azure.microsoft.com:443 : OK (39 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (70 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (20 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (50 ms)
+✅ 94.140.14.140:53 : OK (90 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (50 ms)
+✅ 208.67.220.220:53 : OK (40 ms)
+✅ 164.124.101.2:53 : OK (20 ms)
+✅ 203.248.252.2:53 : OK (20 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (97 ms)
+✅ stackoverflow.com:443 : OK (46 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:39:21
+GMT TIME   : 2026-03-24 20:39:21
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (99 ms)
+✅ google.com:443 : OK (103 ms)
+✅ youtube.com:443 : OK (117 ms)
+✅ facebook.com:443 : OK (27 ms)
+✅ amazon.com:443 : OK (251 ms)
+✅ naver.com:80 : OK (57 ms)
+✅ naver.com:443 : OK (42 ms)
+✅ daum.net:443 : OK (65 ms)
+✅ kakao.com:443 : OK (61 ms)
+✅ aws.amazon.com:443 : OK (36 ms)
+✅ azure.microsoft.com:443 : OK (61 ms)
+✅ 8.8.8.8:53 : OK (80 ms)
+✅ 8.8.4.4:53 : OK (50 ms)
+✅ 1.1.1.1:53 : OK (20 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (20 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (50 ms)
+✅ 94.140.14.140:53 : OK (80 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (60 ms)
+✅ 208.67.220.220:53 : OK (40 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (20 ms)
+✅ 219.250.36.130:53 : OK (20 ms)
+✅ github.com:443 : OK (61 ms)
+✅ stackoverflow.com:443 : OK (81 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:39:31
+GMT TIME   : 2026-03-24 20:39:31
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (93 ms)
+✅ google.com:443 : OK (112 ms)
+✅ youtube.com:443 : OK (77 ms)
+✅ facebook.com:443 : OK (43 ms)
+✅ amazon.com:443 : OK (262 ms)
+✅ naver.com:80 : OK (52 ms)
+✅ naver.com:443 : OK (36 ms)
+✅ daum.net:443 : OK (62 ms)
+✅ kakao.com:443 : OK (63 ms)
+✅ aws.amazon.com:443 : OK (38 ms)
+✅ azure.microsoft.com:443 : OK (72 ms)
+✅ 8.8.8.8:53 : OK (60 ms)
+✅ 8.8.4.4:53 : OK (50 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (0 ms)
+✅ 168.126.63.1:53 : OK (0 ms)
+✅ 168.126.63.2:53 : OK (0 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (80 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (50 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (100 ms)
+✅ 164.124.101.2:53 : OK (0 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (20 ms)
+✅ 219.250.36.130:53 : OK (10 ms)
+✅ github.com:443 : OK (61 ms)
+✅ stackoverflow.com:443 : OK (59 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:39:40
+GMT TIME   : 2026-03-24 20:39:40
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (84 ms)
+✅ google.com:443 : OK (92 ms)
+✅ youtube.com:443 : OK (70 ms)
+✅ facebook.com:443 : OK (39 ms)
+✅ amazon.com:443 : OK (279 ms)
+✅ naver.com:80 : OK (79 ms)
+✅ naver.com:443 : OK (38 ms)
+✅ daum.net:443 : OK (57 ms)
+✅ kakao.com:443 : OK (74 ms)
+✅ aws.amazon.com:443 : OK (20 ms)
+✅ azure.microsoft.com:443 : OK (30 ms)
+✅ 8.8.8.8:53 : OK (90 ms)
+✅ 8.8.4.4:53 : OK (50 ms)
+✅ 1.1.1.1:53 : OK (20 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (20 ms)
+✅ 94.140.14.14:53 : OK (90 ms)
+✅ 9.9.9.9:53 : OK (80 ms)
+✅ 94.140.14.140:53 : OK (70 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (90 ms)
+✅ 208.67.220.220:53 : OK (100 ms)
+✅ 164.124.101.2:53 : OK (20 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (20 ms)
+✅ github.com:443 : OK (55 ms)
+✅ stackoverflow.com:443 : OK (43 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:39:49
+GMT TIME   : 2026-03-24 20:39:50
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (112 ms)
+✅ google.com:443 : OK (148 ms)
+✅ youtube.com:443 : OK (112 ms)
+✅ facebook.com:443 : OK (56 ms)
+✅ amazon.com:443 : OK (265 ms)
+✅ naver.com:80 : OK (50 ms)
+✅ naver.com:443 : OK (46 ms)
+✅ daum.net:443 : OK (141 ms)
+✅ kakao.com:443 : OK (75 ms)
+✅ aws.amazon.com:443 : OK (63 ms)
+✅ azure.microsoft.com:443 : OK (67 ms)
+✅ 8.8.8.8:53 : OK (50 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (10 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (10 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (40 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (70 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (50 ms)
+✅ 208.67.220.220:53 : OK (80 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (0 ms)
+✅ 210.220.163.82:53 : OK (20 ms)
+✅ 219.250.36.130:53 : OK (0 ms)
+✅ github.com:443 : OK (82 ms)
+✅ stackoverflow.com:443 : OK (68 ms)
+-----------------------------
+MOSCOW TIME: 2026-03-24 23:40:00
+GMT TIME   : 2026-03-24 20:40:00
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+[DNS + PORT CHECK]
+✅ google.com:80 : OK (108 ms)
+✅ google.com:443 : OK (123 ms)
+✅ youtube.com:443 : OK (108 ms)
+✅ facebook.com:443 : OK (38 ms)
+✅ amazon.com:443 : OK (271 ms)
+✅ naver.com:80 : OK (149 ms)
+✅ naver.com:443 : OK (93 ms)
+✅ daum.net:443 : OK (78 ms)
+✅ kakao.com:443 : OK (74 ms)
+✅ aws.amazon.com:443 : OK (42 ms)
+✅ azure.microsoft.com:443 : OK (79 ms)
+✅ 8.8.8.8:53 : OK (40 ms)
+✅ 8.8.4.4:53 : OK (40 ms)
+✅ 1.1.1.1:53 : OK (10 ms)
+✅ 1.0.0.1:53 : OK (30 ms)
+✅ 168.126.63.1:53 : OK (10 ms)
+✅ 168.126.63.2:53 : OK (0 ms)
+✅ 94.140.14.14:53 : OK (60 ms)
+✅ 9.9.9.9:53 : OK (60 ms)
+✅ 94.140.14.140:53 : OK (60 ms)
+✅ 94.140.14.141:53 : OK (60 ms)
+🚨 76.76.19.19:53 : FAIL
+🚨 76.223.122.150:53 : FAIL
+✅ 208.67.222.222:53 : OK (50 ms)
+✅ 208.67.220.220:53 : OK (80 ms)
+✅ 164.124.101.2:53 : OK (10 ms)
+✅ 203.248.252.2:53 : OK (10 ms)
+✅ 210.220.163.82:53 : OK (10 ms)
+✅ 219.250.36.130:53 : OK (0 ms)
+✅ github.com:443 : OK (54 ms)
+✅ stackoverflow.com:443 : OK (80 ms)
