@@ -5,12 +5,17 @@ explorer.exe celebrity_mode_videp.html
 
 자는동안 로그를 추적해보재이.😘  
 nano log_watch.sh  
+
+
 chmod +x log_watch.sh  
 ./log_watch.sh //tail 보다 좀 더 불안정하대이.tail은 실행 명령어래이. 누르고 숙면 같이 취하재이.  
 touch appD.log  
 tail -f appD.log  
-자는동안 아이피도 추적해보재이.🤳  
-nano ip.sh  
+//추가했대이 추가설치하래이.05새벽 업뎃
+sudo apt install dnsutils -y
+
+//자는동안 아이피도 추적해보재이.🤳  
+  //nano ip.sh  
   ==================================================================================
   #!/bin/bash
   
