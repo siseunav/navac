@@ -1,0 +1,49 @@
+📡 통합 감시 시작 (PORT + DNS+PORT)
+-----------------------------
+MOSCOW TIME: 2026-03-24 21:52:01
+GMT TIME   : 2026-03-24 18:52:01
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED !!!
+🚨 LOCAL PORT 8080 : CLOSED !!!
+🚨 LOCAL PORT 3306 : CLOSED !!!
+[DNS + PORT CHECK]
+✅ google.com:80 : OK
+✅ google.com:443 : OK
+✅ youtube.com:443 : OK
+✅ facebook.com:443 : OK
+✅ amazon.com:443 : OK
+✅ naver.com:80 : OK
+✅ naver.com:443 : OK
+✅ daum.net:443 : OK
+✅ kakao.com:443 : OK
+✅ aws.amazon.com:443 : OK
+✅ azure.microsoft.com:443 : OK
+✅ 8.8.8.8:53 : OK
+✅ 8.8.4.4:53 : OK
+✅ 1.1.1.1:53 : OK
+✅ github.com:443 : OK
+✅ stackoverflow.com:443 : OK
+-----------------------------
+MOSCOW TIME: 2026-03-24 21:52:07
+GMT TIME   : 2026-03-24 18:52:07
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED !!!
+🚨 LOCAL PORT 8080 : CLOSED !!!
+🚨 LOCAL PORT 3306 : CLOSED !!!
+[DNS + PORT CHECK]
+✅ google.com:80 : OK
+✅ google.com:443 : OK
+✅ youtube.com:443 : OK
+✅ facebook.com:443 : OK
+✅ amazon.com:443 : OK
+✅ naver.com:80 : OK
+✅ naver.com:443 : OK
+✅ daum.net:443 : OK
+✅ kakao.com:443 : OK
+✅ aws.amazon.com:443 : OK
+✅ azure.microsoft.com:443 : OK
+✅ 8.8.8.8:53 : OK
+✅ 8.8.4.4:53 : OK
+✅ 1.1.1.1:53 : OK
+✅ github.com:443 : OK
+✅ stackoverflow.com:443 : OK
