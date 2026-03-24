@@ -82,7 +82,7 @@
         <div class="card">
             <h1>연예인 모드: <span id="mode">활성화</span></h1>
 
-            <img src="iu.jpg" alt="프로필 사진" class="photo" id="photo" />
+            <img src="img/iu.jpg" alt="프로필 사진" class="photo" id="photo" />
 
             <button id="toggleBtn" onclick="toggleMode()">
                 연예인 모드 해제하기
@@ -110,7 +110,7 @@
                     status.textContent = "🎉 당신은 해적왕!";
                     status.classList.add("active");
 
-                    photo.src = "rupie's watermark.jpeg";
+                    photo.src = "img/rupie's watermark.jpeg";
                     photo.classList.add("active");
                     //photo.classList.add("enlarged");
 
@@ -122,7 +122,7 @@
                     status.textContent = "";
                     status.classList.remove("active");
 
-                    photo.src = "iu.jpg";
+                    photo.src = "img/iu.jpg";
                     photo.classList.remove("active");
                     photo.classList.remove("enlarged");
                     // 버튼 글씨 원래대로
