@@ -33,8 +33,6 @@ CHECK_TARGETS=(
     "9.9.9.9:53"
     "94.140.14.140:53"
     "94.140.14.141:53"
-    "76.76.19.19:53"
-    "76.223.122.150:53"
     "208.67.222.222:53"
     "208.67.220.220:53"
     "164.124.101.2:53"
@@ -42,7 +40,11 @@ CHECK_TARGETS=(
     "210.220.163.82:53"
     "219.250.36.130:53"
 
-    # 📡 기타
+    # 📡 기타 포트
+    "76.76.19.19:22"
+    "76.223.122.150:80"
+
+    # 📡 기타 사이트
     "github.com:443"
     "stackoverflow.com:443"
 )
@@ -53,17 +55,14 @@ log() {
   echo -e "$1" | tee -a "$LOG_FILE"
 }
 
-log "📡 통합 감시 시작 (실시간 출력)"
+log "📡 통합 감시 시작 (443 최적화)"
 
 while true
 do
   log "-----------------------------"
 
-  MOSCOW_TIME=$(TZ=Europe/Moscow date "+%Y-%m-%d %H:%M:%S")
   GMT_TIME=$(TZ=UTC date "+%Y-%m-%d %H:%M:%S")
-
-  log "MOSCOW TIME: $MOSCOW_TIME"
-  log "GMT TIME   : $GMT_TIME"
+  log "GMT TIME : $GMT_TIME"
 
   log "[LOCAL PORT]"
 
@@ -77,13 +76,14 @@ do
     fi
   done
 
-  log "[DNS + PORT CHECK]"
+  log "[NETWORK CHECK]"
 
   for TARGET in "${CHECK_TARGETS[@]}"
   do
     HOST=$(echo "$TARGET" | cut -d: -f1)
     PORT=$(echo "$TARGET" | cut -d: -f2)
 
+    # 🌐 DNS 체크 (UDP 53 필요)
     if [ "$PORT" == "53" ]; then
       RESULT=$(dig @"$HOST" google.com +time=1 +tries=1 2>/dev/null | grep "Query time")
 
@@ -91,8 +91,24 @@ do
         TIME=$(echo "$RESULT" | awk '{print $4}')
         log "✅ $HOST:$PORT : OK (${TIME} ms)"
       else
+        log "🚨 $HOST:$PORT : FAIL (DNS 차단 가능)"
+      fi
+
+    # 🔒 HTTPS (443 전용 처리)
+    elif [ "$PORT" == "443" ]; then
+      START=$(date +%s%3N)
+
+      curl -s --connect-timeout 2 https://$HOST > /dev/null
+
+      if [ $? -eq 0 ]; then
+        END=$(date +%s%3N)
+        TIME=$((END - START))
+        log "✅ $HOST:$PORT : OK (${TIME} ms)"
+      else
         log "🚨 $HOST:$PORT : FAIL"
       fi
+
+    # 🔧 기타 포트 (80,22 등)
     else
       START=$(date +%s%3N)
 
@@ -103,10 +119,10 @@ do
         TIME=$((END - START))
         log "✅ $HOST:$PORT : OK (${TIME} ms)"
       else
-        log "🚨 $HOST:$PORT : FAIL"
+        log "🚨 $HOST:$PORT : FAIL (차단 가능)"
       fi
     fi
-  done
+    done
 
   sleep 5
 done

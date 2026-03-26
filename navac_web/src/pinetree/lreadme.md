@@ -63,3 +63,45 @@ stdbuf -oL ./log_pinetree.sh   //로그가 실시간이래이.
 chmod +x ip.sh  
 touch ip.log  
 tail -f ip.log
+
+
+
+
+========================================443 SOCKET 이래이. 
+sudo ufw default deny incoming
+sudo ufw allow 443/tcp
+sudo ufw enable
+
+
+sudo iptables -P INPUT DROP
+sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+
+
+//이건 안됨
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 443
+
+sudo vi /etc/ssh/sshd_config
+sudo systemctl restart ssh
+
+===============================================================================
+sudo nano /etc/resolv.conf //여기에 밑에 걸 추가하래이.
+
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+nameserver 1.1.1.1
+nameserver 1.0.0.1
+nameserver 168.126.63.1
+nameserver 168.126.63.2
+nameserver 94.140.14.14
+nameserver 9.9.9.9
+nameserver 94.140.14.140
+nameserver 94.140.14.141
+nameserver 76.76.19.19
+nameserver 76.223.122.150
+nameserver 208.67.222.222
+nameserver 208.67.220.220
+nameserver 164.124.101.2
+nameserver 203.248.252.2
+nameserver 210.220.163.82
+nameserver 219.250.36.130
