@@ -61,3 +61,189 @@
 ✅ DNS 168.126.63.2:53 : 7 ms
 ✅ github.com:443 : 133 ms (HTTP 200)
 ✅ stackoverflow.com:443 : 345 ms (HTTP 302)
+
+-----------------------------
+🕒 MOSCOW TIME: 2026-04-04 11:57:40
+🌍 GMT TIME   : 2026-04-04 08:57:40
+
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+
+[NETWORK CHECK]
+✅ google.com:80 : 192 ms (HTTP 301)
+✅ google.com:443 : 269 ms (HTTP 301)
+✅ youtube.com:443 : 273 ms (HTTP 301)
+✅ facebook.com:443 : 248 ms (HTTP 301)
+✅ amazon.com:443 : 866 ms (HTTP 301)
+✅ shully-f95f5.web.app:443 : 147 ms (HTTP 200)
+✅ naver.com:80 : 110 ms (HTTP 301)
+✅ naver.com:443 : 160 ms (HTTP 301)
+✅ daum.net:443 : 74 ms (HTTP 307)
+✅ kakao.com:443 : 113 ms (HTTP 302)
+✅ aws.amazon.com:443 : 398 ms (HTTP 200)
+✅ azure.microsoft.com:443 : 1026 ms (HTTP 301)
+✅ DNS 8.8.8.8:53 : 57 ms
+✅ DNS 8.8.4.4:53 : 54 ms
+✅ DNS 1.1.1.1:53 : 14 ms
+✅ DNS 1.0.0.1:53 : 7 ms
+✅ DNS 168.126.63.1:53 : 10 ms
+✅ DNS 168.126.63.2:53 : 7 ms
+✅ github.com:443 : 243 ms (HTTP 200)
+✅ stackoverflow.com:443 : 327 ms (HTTP 302)
+
+-----------------------------
+🕒 MOSCOW TIME: 2026-04-04 12:36:33
+🌍 GMT TIME   : 2026-04-04 09:36:33
+
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+
+[NETWORK CHECK]
+✅ google.com:80 : 224 ms (HTTP 301)
+✅ google.com:443 : 256 ms (HTTP 301)
+✅ youtube.com:443 : 300 ms (HTTP 301)
+✅ facebook.com:443 : 252 ms (HTTP 301)
+✅ amazon.com:443 : 682 ms (HTTP 301)
+✅ shully-f95f5.web.app:443 : 58 ms (HTTP 200)
+✅ naver.com:80 : 70 ms (HTTP 301)
+✅ naver.com:443 : 59 ms (HTTP 301)
+✅ daum.net:443 : 113 ms (HTTP 307)
+✅ kakao.com:443 : 113 ms (HTTP 302)
+✅ aws.amazon.com:443 : 920 ms (HTTP 200)
+✅ azure.microsoft.com:443 : 2954 ms (HTTP 301)
+✅ DNS 8.8.8.8:53 : 61 ms
+✅ DNS 8.8.4.4:53 : 44 ms
+✅ DNS 1.1.1.1:53 : 3 ms
+✅ DNS 1.0.0.1:53 : 11 ms
+✅ DNS 168.126.63.1:53 : 3 ms
+✅ DNS 168.126.63.2:53 : 7 ms
+✅ github.com:443 : 211 ms (HTTP 200)
+✅ stackoverflow.com:443 : 241 ms (HTTP 302)
+
+-----------------------------
+🕒 MOSCOW TIME: 2026-04-04 13:15:32
+🌍 GMT TIME   : 2026-04-04 10:15:32
+
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+
+[NETWORK CHECK]
+✅ google.com:80 : 162 ms (HTTP 301)
+✅ google.com:443 : 268 ms (HTTP 301)
+✅ youtube.com:443 : 290 ms (HTTP 301)
+✅ facebook.com:443 : 241 ms (HTTP 301)
+✅ amazon.com:443 : 2289 ms (HTTP 301)
+✅ shully-f95f5.web.app:443 : 44 ms (HTTP 200)
+✅ naver.com:80 : 44 ms (HTTP 301)
+✅ naver.com:443 : 46 ms (HTTP 301)
+✅ daum.net:443 : 71 ms (HTTP 307)
+✅ kakao.com:443 : 64 ms (HTTP 302)
+✅ aws.amazon.com:443 : 329 ms (HTTP 200)
+✅ azure.microsoft.com:443 : 2990 ms (HTTP 301)
+✅ DNS 8.8.8.8:53 : 80 ms
+✅ DNS 8.8.4.4:53 : 76 ms
+✅ DNS 1.1.1.1:53 : 3 ms
+✅ DNS 1.0.0.1:53 : 3 ms
+✅ DNS 168.126.63.1:53 : 3 ms
+✅ DNS 168.126.63.2:53 : 3 ms
+✅ github.com:443 : 198 ms (HTTP 200)
+✅ stackoverflow.com:443 : 236 ms (HTTP 302)
+
+-----------------------------
+🕒 MOSCOW TIME: 2026-04-04 13:54:35
+🌍 GMT TIME   : 2026-04-04 10:54:35
+
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+
+[NETWORK CHECK]
+✅ google.com:80 : 178 ms (HTTP 301)
+✅ google.com:443 : 250 ms (HTTP 301)
+✅ youtube.com:443 : 271 ms (HTTP 301)
+✅ facebook.com:443 : 233 ms (HTTP 301)
+✅ amazon.com:443 : 686 ms (HTTP 301)
+✅ shully-f95f5.web.app:443 : 48 ms (HTTP 200)
+✅ naver.com:80 : 51 ms (HTTP 301)
+✅ naver.com:443 : 48 ms (HTTP 301)
+✅ daum.net:443 : 91 ms (HTTP 307)
+✅ kakao.com:443 : 74 ms (HTTP 302)
+✅ aws.amazon.com:443 : 336 ms (HTTP 200)
+✅ azure.microsoft.com:443 : 3646 ms (HTTP 301)
+✅ DNS 8.8.8.8:53 : 62 ms
+✅ DNS 8.8.4.4:53 : 39 ms
+✅ DNS 1.1.1.1:53 : 7 ms
+✅ DNS 1.0.0.1:53 : 7 ms
+✅ DNS 168.126.63.1:53 : 7 ms
+✅ DNS 168.126.63.2:53 : 7 ms
+✅ github.com:443 : 242 ms (HTTP 200)
+✅ stackoverflow.com:443 : 258 ms (HTTP 302)
+
+-----------------------------
+🕒 MOSCOW TIME: 2026-04-04 14:33:30
+🌍 GMT TIME   : 2026-04-04 11:33:30
+
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+
+[NETWORK CHECK]
+✅ google.com:80 : 167 ms (HTTP 301)
+✅ google.com:443 : 209 ms (HTTP 301)
+✅ youtube.com:443 : 250 ms (HTTP 301)
+✅ facebook.com:443 : 236 ms (HTTP 301)
+✅ amazon.com:443 : 761 ms (HTTP 301)
+✅ shully-f95f5.web.app:443 : 85 ms (HTTP 200)
+✅ naver.com:80 : 70 ms (HTTP 301)
+✅ naver.com:443 : 44 ms (HTTP 301)
+✅ daum.net:443 : 65 ms (HTTP 307)
+✅ kakao.com:443 : 73 ms (HTTP 302)
+✅ aws.amazon.com:443 : 331 ms (HTTP 200)
+✅ azure.microsoft.com:443 : 2012 ms (HTTP 301)
+✅ DNS 8.8.8.8:53 : 57 ms
+✅ DNS 8.8.4.4:53 : 53 ms
+✅ DNS 1.1.1.1:53 : 7 ms
+✅ DNS 1.0.0.1:53 : 7 ms
+✅ DNS 168.126.63.1:53 : 7 ms
+✅ DNS 168.126.63.2:53 : 3 ms
+✅ github.com:443 : 117 ms (HTTP 200)
+✅ stackoverflow.com:443 : 239 ms (HTTP 302)
+
+-----------------------------
+🕒 MOSCOW TIME: 2026-04-04 15:12:34
+🌍 GMT TIME   : 2026-04-04 12:12:34
+
+[LOCAL PORT]
+🚨 LOCAL PORT 80 : CLOSED
+🚨 LOCAL PORT 8080 : CLOSED
+🚨 LOCAL PORT 3306 : CLOSED
+
+[NETWORK CHECK]
+✅ google.com:80 : 207 ms (HTTP 301)
+✅ google.com:443 : 333 ms (HTTP 301)
+✅ youtube.com:443 : 226 ms (HTTP 301)
+✅ facebook.com:443 : 239 ms (HTTP 301)
+✅ amazon.com:443 : 692 ms (HTTP 301)
+✅ shully-f95f5.web.app:443 : 75 ms (HTTP 200)
+✅ naver.com:80 : 66 ms (HTTP 301)
+✅ naver.com:443 : 57 ms (HTTP 301)
+✅ daum.net:443 : 103 ms (HTTP 307)
+✅ kakao.com:443 : 118 ms (HTTP 302)
+✅ aws.amazon.com:443 : 369 ms (HTTP 200)
+✅ azure.microsoft.com:443 : 2953 ms (HTTP 301)
+✅ DNS 8.8.8.8:53 : 56 ms
+✅ DNS 8.8.4.4:53 : 49 ms
+✅ DNS 1.1.1.1:53 : 15 ms
+✅ DNS 1.0.0.1:53 : 7 ms
+✅ DNS 168.126.63.1:53 : 7 ms
+✅ DNS 168.126.63.2:53 : 11 ms
+✅ github.com:443 : 269 ms (HTTP 200)
+✅ stackoverflow.com:443 : 269 ms (HTTP 302)

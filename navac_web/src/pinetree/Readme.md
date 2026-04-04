@@ -315,3 +315,5 @@ ps -ef | grep log_watch
 tail -f nohup.out  
 #이걸 사용하면 좆된대이. 쓰지말고. ".out"  
 nohup ./log_watch.sh > log_watch.log 2>&1 &
+# 이걸 사용하래이.
+nohup ./log_pinetree.sh | tee -a log_watch.log &
