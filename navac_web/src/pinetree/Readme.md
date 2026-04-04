@@ -307,3 +307,11 @@ nameserver 164.124.101.2
 nameserver 203.248.252.2
 nameserver 210.220.163.82
 nameserver 219.250.36.130
+===============================================================================
+#Windows → Linux 파일 옮기면 CRLF → LF 변환 필수  //#! /bin/bash^M  ← 이렇게 깨진대이.🤣("/bin/bash^M: bad interpreter: No such file or directory")
+sed -i 's/\r$//' log_watch.sh
+#프로세스랑 로그확인  
+ps -ef | grep log_watch  
+tail -f nohup.out  
+#이걸 사용하면 좆된대이. 쓰지말고. ".out"  
+nohup ./log_watch.sh > log_watch.log 2>&1 &

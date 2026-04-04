@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE=./appD.log
+LOG_FILE=log_watch.log
 
 PORTS=(80 8080 3306)
 
@@ -11,7 +11,7 @@ CHECK_TARGETS=(
   "youtube.com:443"
   "facebook.com:443"
   "amazon.com:443"
-
+  "shully-f95f5.web.app:443"
   # 🇰🇷 국내 주요 사이트
   "naver.com:80"
   "naver.com:443"
@@ -100,7 +100,8 @@ do
       # 🔥 TCP (속도 측정)
       START=$(date +%s%3N)
 
-      timeout 1 bash -c "echo > /dev/tcp/$HOST/$PORT" 2>/dev/null
+      //timeout 1 bash -c "echo > /dev/tcp/$HOST/$PORT" 2>/dev/null
+      timeout 2 curl -s -o /dev/null -w "%{http_code}" https://$HOST
 
       if [ $? -eq 0 ]; then
         END=$(date +%s%3N)
