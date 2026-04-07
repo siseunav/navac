@@ -1,0 +1,1100 @@
+C:\Users\john\Desktop\report.docx
+C:/Users/maria/Documents//budget.xlsx
+C:\Program Files\App\app.exe
+D:\Work\project\src\main.py
+/home/ubuntu/scripts/deploy.sh
+/home//alex//downloads/movie.mp4
+/var/log/nginx/access.log
+/var//log//syslog
+/Users/jinwoo/Desktop/사진.png
+/Users/jinwoo//Documents/파일.txt
+~/projects/test/app.js
+~/downloads//music.mp3
+../relative/path/to/file.txt
+./local/script.sh
+C:\Users\李雷\文档\数据.csv
+C:\Users\john doe\Desktop\file.txt
+C:\Users\john\Desktop\temp\
+E:\backup\2023\01\01\data.json
+E:\backup\2023\13\01\data.json
+\\Server01\Shared\folder\file.doc
+\\192.168.0.1\public\data.csv
+s3://my-bucket/data/file.parquet
+gs://bucket-name/logs/log1.txt
+ftp://example.com/files/data.zip
+http://example.com/index.html
+C:\Users\user\Desktop\NUL.txt
+C:\Users\user\Desktop\con.txt
+/home/user/../user2/docs/file.txt
+/home/user/docs/./file2.txt
+/home/user/docs//subdir///file3.txt
+C:\Users\john\Desktop\file(1).txt
+C:\Users\john\Desktop\file (1).txt
+C:\Users\john\Desktop\file(1).TXT
+C:\Users\john\Desktop\file..txt
+C:\Users\john\Desktop\.hiddenfile
+C:\Users\john\.config\settings.json
+C:\Users\john\Desktop\aux.txt
+C:\Users\john\Desktop\LPT1.txt
+C:\Users\john\Desktop\COM3.log
+C:\Users\john\Desktop\prn.txt
+C:\Users\john\Desktop\file?.txt
+C:\Users\john\Desktop\file*.txt
+C:\Users\john\Desktop\file<1>.txt
+C:\Users\john\Desktop\file|name.txt
+C:\Users\john\Desktop\   file.txt
+C:\Users\john\Desktop\file.txt
+C:\Users\john\Desktop\\\file.txt
+C:\\\\Users\\\\john\\\\Desktop\\\\file.txt
+/home/user/docs/ファイル.txt
+/home/user/docs/文件.txt
+/home/user/docs/файл.txt
+/home/user/docs/archivo.txt
+/home/user/docs/ملف.txt
+/home/user/docs/😀file.txt
+/home/user/docs/file name with spaces.txt
+/home/user/docs/file	name.txt
+/home/user/docs/file\nname.txt
+/home/user/docs/file\rname.txt
+/home/user/docs/ file.txt
+/home/user/docs/file.txt
+/home/user//docs///file.txt
+/home/user/docs/../../etc/passwd
+/home/user/docs/../../../root/.bashrc
+/home/user/docs/.hidden/file.txt
+/home/user/docs/.git/config
+/home/user/docs/.env
+/Users/test/Desktop/Screen Shot 2023-01-01 at 12.00.00.png
+/Users/test/Desktop/Screen Shot 2023-13-01 at 12.00.00.png
+/Users/test/Desktop/Untitled
+/Users/test/Desktop/.DS_Store
+/Users/test/Desktop/..
+/Users/test/Desktop/.
+\\Server\Share\folder\..\folder2\file.txt
+\\Server\Share\folder\.\file2.txt
+\\?\C:\Users\john\Desktop\file.txt
+\\.\C:\Users\john\Desktop\file.txt
+s3://bucket//folder///file.csv
+s3://bucket/folder/file.csv?versionId=123
+s3://bucket/folder/file.csv#fragment
+gs://bucket-name//logs//2023//01//01//log.txt
+gs://bucket-name/logs/2023/02/30/log.txt
+ftp://user:pass@example.com/files/data (copy).zip
+ftp://example.com/files/data%20space.zip
+http://example.com//api//v1//users
+https://example.com/api/v1/users?id=123&name=john
+file:///C:/Users/john/Desktop/file.txt
+file:///home/user/docs/file.txt
+C:\Users\john\Desktop\NULL
+C:\Users\john\Desktop\NUL.txt.txt
+C:\Users\john\Desktop\CON
+C:\Users\john\Desktop\desktop.ini
+C:\Users\john\Desktop\Thumbs.db
+C:\Users\john\Desktop\$RECYCLE.BIN\file.txt
+C:\Users\john\Desktop\~$temp.docx
+C:\Users\john\Desktop\temp.tmp
+C:\Users\john\AppData\Local\Temp\file.log
+/home/user/.cache/file.tmp
+/home/user/.local/share/Trash/files/file.txt
+/home/user/.config/google-chrome/Default/Cache/file
+/home/user/logs/app.log.1
+/home/user/logs/app.log.2.gz
+/home/user/logs/app.log.old
+/home/user/logs/app.log.bak
+/home/user/logs/app.log~
+/home/user/logs/#app.log#
+2024-01-01 12:00:01 | user=john | action=OPEN | path=C:\Users\john\Desktop\report.docx | status=200
+2024-01-01 12:00:02 | user=maria | action=DOWNLOAD | path=/home/maria/docs/file.pdf | status=200
+2024-01-01 12:00:03 | user= | action=DELETE | path=/home//user//docs//file.txt | status=500
+2024-01-01 12:00:04 | user=alex | action=UPLOAD | path=s3://bucket/data/file.csv | status=201
+2024-01-01 12:00:05 | user=john | action=OPEN | path=C:\Users\john\Desktop\CON | status=403
+2024-01-01 12:00:06 | user=李雷 | action=OPEN | path=C:\Users\李雷\文档\数据.csv | status=200
+2024-01-01 12:00:07 | user=test | action=OPEN | path=/home/user/docs/../../etc/passwd | status=403
+2024-01-01 12:00:08 | user=guest | action=OPEN | path=http://example.com//api//v1//users | status=200
+2024-01-01 12:00:09 | user=admin | action=DELETE | path=/var/log/nginx/access.log | status=200
+2024-01-01 12:00:10 | user=john | action=OPEN | path=C:\Users\john\Desktop\file?.txt | status=400
+2024-01-01 12:00:11 | user=john | action=OPEN | path=C:\Users\john\Desktop\file.txt   | status=200
+2024-01-01 12:00:12 | user=john | action=OPEN | path=C:\Users\john\Desktop\\\file.txt | status=200
+2024-01-01 12:00:13 | user= | action=UPLOAD | path=ftp://example.com/files/data.zip | status=201
+2024-01-01 12:00:14 | user=emma | action=DOWNLOAD | path=gs://bucket/logs/log1.txt | status=200
+2024-01-01 12:00:15 | user=emma | action=DOWNLOAD | path=gs://bucket/logs/2023/02/30/log.txt | status=404
+2024-01-01 12:00:16 | user=root | action=OPEN | path=/root/.bashrc | status=200
+2024-01-01 12:00:17 | user=root | action=OPEN | path=/home/user/.env | status=200
+2024-01-01 12:00:18 | user=john | action=DELETE | path=C:\Users\john\Desktop\aux.txt | status=403
+2024-01-01 12:00:19 | user=guest | action=OPEN | path=file:///C:/Users/john/Desktop/file.txt | status=200
+2024-01-01 12:00:20 | user=john | action=OPEN | path=~/downloads//music.mp3 | status=200
+2024-01-01 12:00:21 | user=john | action=OPEN | path=../relative/path/file.txt | status=200
+2024-01-01 12:00:22 | user=admin | action=DELETE | path=/home/user/logs/app.log.1 | status=200
+2024-01-01 12:00:23 | user=admin | action=DELETE | path=/home/user/logs/app.log.2.gz | status=200
+2024-01-01 12:00:24 | user=admin | action=DELETE | path=/home/user/logs/app.log.bak | status=200
+2024-01-01 12:00:25 | user=test | action=OPEN | path=/Users/test/Desktop/.DS_Store | status=200
+2024-01-01 12:00:26 | user=test | action=OPEN | path=/Users/test/Desktop/.. | status=400
+2024-01-01 12:00:27 | user=test | action=OPEN | path=/Users/test/Desktop/. | status=400
+2024-01-01 12:00:28 | user=emma | action=UPLOAD | path=s3://bucket//folder///file.csv | status=201
+2024-01-01 12:00:29 | user=emma | action=UPLOAD | path=s3://bucket/folder/file.csv?versionId=123 | status=201
+2024-01-01 12:00:30 | user=emma | action=UPLOAD | path=s3://bucket/folder/file.csv#fragment | status=201
+2024-01-01 12:00:31 | user=alex | action=OPEN | path=\\Server\Share\folder\..\file.txt | status=200
+2024-01-01 12:00:32 | user=alex | action=OPEN | path=\\Server\Share\folder\.\file2.txt | status=200
+2024-01-01 12:00:33 | user=john | action=OPEN | path=C:\Users\john\Desktop\~$temp.docx | status=200
+2024-01-01 12:00:34 | user=john | action=OPEN | path=C:\Users\john\Desktop\Thumbs.db | status=200
+2024-01-01 12:00:35 | user=john | action=OPEN | path=C:\Users\john\Desktop\desktop.ini | status=200
+2024-01-01 12:00:36 | user=john | action=OPEN | path=C:\Users\john\Desktop\😀file.txt | status=200
+2024-01-01 12:00:37 | user=john | action=OPEN | path=C:\Users\john\Desktop\file	name.txt | status=200
+2024-01-01 12:00:38 | user=john | action=OPEN | path=C:\Users\john\Desktop\ file.txt | status=200
+2024-01-01 12:00:39 | user=john | action=OPEN | path=C:\Users\john\Desktop\file.txt  | status=200
+2024-01-01 12:00:40 | user=unknown | action=OPEN | path= | status=500
+2024-01-01T12:00:01Z | session=abc123 | user=john | ip=192.168.0.1 | device=Windows | action=LOGIN | path=C:\Users\john\Desktop\report.docx | status=200 | latency=120
+2024-01-01T12:00:02Z | session=abc123 | user=john | ip=192.168.0.1 | device=Windows | action=OPEN | path=C:\Users\john\Desktop\file.txt | status=200 | latency=80
+2024-01-01T12:00:03Z | session=abc123 | user=john | ip=192.168.0.1 | device=Windows | action=OPEN | path=C:\Users\john\Desktop\file?.txt | status=400 | latency=60
+2024-01-01T12:00:04Z | session=xyz999 | user=emma | ip=10.0.0.5 | device=Mac | action=LOGIN | path=/Users/emma/Desktop/file.txt | status=200 | latency=200
+2024-01-01T12:00:05Z | session=xyz999 | user=emma | ip=10.0.0.5 | device=Mac | action=UPLOAD | path=s3://bucket/data/file.csv | status=201 | latency=350
+2024-01-01T12:00:06Z | session=xyz999 | user=emma | ip=10.0.0.5 | device=Mac | action=UPLOAD | path=s3://bucket/data/file.csv?versionId=123 | status=201 | latency=500
+2024-01-01T12:00:07Z | session=xyz999 | user=emma | ip=10.0.0.5 | device=Mac | action=UPLOAD | path=s3://bucket//data///file.csv | status=201 | latency=450
+2024-01-01T12:00:08Z | session=hacker01 | user=unknown | ip=185.23.44.12 | device=Linux | action=OPEN | path=/home/user/docs/../../etc/passwd | status=403 | latency=50
+2024-01-01T12:00:09Z | session=hacker01 | user=unknown | ip=185.23.44.12 | device=Linux | action=OPEN | path=/root/.bashrc | status=403 | latency=40
+2024-01-01T12:00:10Z | session=hacker01 | user=unknown | ip=185.23.44.12 | device=Linux | action=OPEN | path=/home/user/.env | status=403 | latency=45
+2024-01-01T12:00:11Z | session=admin777 | user=admin | ip=172.16.0.1 | device=Linux | action=DELETE | path=/var/log/nginx/access.log | status=200 | latency=300
+2024-01-01T12:00:12Z | session=admin777 | user=admin | ip=172.16.0.1 | device=Linux | action=DELETE | path=/var/log/nginx/error.log | status=200 | latency=320
+2024-01-01T12:00:13Z | session=admin777 | user=admin | ip=172.16.0.1 | device=Linux | action=DELETE | path=/home/user/logs/app.log.1 | status=200 | latency=280
+2024-01-01T12:00:14Z | session=guest111 | user=guest | ip=203.0.113.5 | device=Android | action=OPEN | path=http://example.com/api/v1/users?id=123 | status=200 | latency=150
+2024-01-01T12:00:15Z | session=guest111 | user=guest | ip=203.0.113.5 | device=Android | action=OPEN | path=http://example.com//api//v1//users | status=200 | latency=180
+2024-01-01T12:00:16Z | session=guest111 | user=guest | ip=203.0.113.5 | device=Android | action=DOWNLOAD | path=ftp://example.com/files/data.zip | status=200 | latency=600
+2024-01-01T12:00:17Z | session=abc123 | user=john | ip=192.168.0.1 | device=Windows | action=OPEN | path=~/downloads//music.mp3 | status=200 | latency=90
+2024-01-01T12:00:18Z | session=abc123 | user=john | ip=192.168.0.1 | device=Windows | action=OPEN | path=../relative/path/file.txt | status=200 | latency=70
+2024-01-01T12:00:19Z | session=abc123 | user=john | ip=192.168.0.1 | device=Windows | action=LOGOUT | path= | status=200 | latency=50
+2024-01-01T12:00:20Z | session=zzz888 | user=李雷 | ip=8.8.8.8 | device=Windows | action=OPEN | path=C:\Users\李雷\文档\数据.csv | status=200 | latency=110
+2024-01-01T12:00:21Z | session=zzz888 | user=李雷 | ip=8.8.8.8 | device=Windows | action=OPEN | path=C:\Users\李雷\文档\😀file.txt | status=200 | latency=130
+2024-01-01T12:00:22Z | session=zzz888 | user=李雷 | ip=8.8.8.8 | device=Windows | action=OPEN | path=C:\Users\李雷\文档\file	name.txt | status=200 | latency=125
+2024-01-01T12:00:23Z | session=zzz888 | user=李雷 | ip=8.8.8.8 | device=Windows | action=OPEN | path=C:\Users\李雷\文档\file.txt   | status=200 | latency=115
+2024-01-01T12:00:24Z | session=zzz888 | user=李雷 | ip=8.8.8.8 | device=Windows | action=OPEN | path=C:\Users\李雷\文档\\\file.txt | status=200 | latency=105
+2024-01-01T12:00:25Z | session=bot001 | user=bot | ip=66.249.66.1 | device=Bot | action=CRAWL | path=/robots.txt | status=200 | latency=10
+2024-01-01T12:00:26Z | session=bot001 | user=bot | ip=66.249.66.1 | device=Bot | action=CRAWL | path=/sitemap.xml | status=200 | latency=12
+2024-01-01T12:00:27Z | session=bot001 | user=bot | ip=66.249.66.1 | device=Bot | action=CRAWL | path=/admin | status=403 | latency=20
+2024-01-01T12:00:28Z | session=bot001 | user=bot | ip=66.249.66.1 | device=Bot | action=CRAWL | path=/login | status=200 | latency=18
+2024-01-01T12:00:29Z | session=weird001 | user=test | ip=999.999.999.999 | device=Unknown | action=OPEN | path= | status=??? | latency=-1
+2024-01-01T12:00:30Z | session=weird001 | user=test | ip=999.999.999.999 | device=Unknown | action=OPEN | path=C:\Users\test\Desktop\NUL | status=500 | latency=0
+user_id,username,signup_date,country,is_active
+1,john,2023-12-01,US,1
+2,emma,2023-12-05,KR,1
+3,alex,2023-12-10,UK,0
+4,李雷,2023-12-15,CN,1
+5,guest,2024-01-01,NULL,0
+6,admin,2023-01-01,US,1
+7,bot,2022-01-01,NULL,1
+8,test,,KR,1
+session_id,user_id,ip,device,start_time,end_time
+abc123,1,192.168.0.1,Windows,2024-01-01 12:00:01,2024-01-01 12:10:00
+xyz999,2,10.0.0.5,Mac,2024-01-01 12:00:04,2024-01-01 12:05:00
+hacker01,5,185.23.44.12,Linux,2024-01-01 12:00:08,
+admin777,6,172.16.0.1,Linux,2024-01-01 12:00:11,2024-01-01 12:20:00
+guest111,5,203.0.113.5,Android,2024-01-01 12:00:14,2024-01-01 12:03:00
+bot001,7,66.249.66.1,Bot,2024-01-01 12:00:25,2024-01-01 12:01:00
+weird001,8,999.999.999.999,Unknown,2024-01-01 12:00:29,
+event_id,session_id,action,path,status,latency
+1,abc123,LOGIN,C:\Users\john\Desktop\report.docx,200,120
+2,abc123,OPEN,C:\Users\john\Desktop\file.txt,200,80
+3,abc123,OPEN,C:\Users\john\Desktop\file?.txt,400,60
+4,xyz999,LOGIN,/Users/emma/Desktop/file.txt,200,200
+5,xyz999,UPLOAD,s3://bucket/data/file.csv,201,350
+6,hacker01,OPEN,/home/user/docs/../../etc/passwd,403,50
+7,hacker01,OPEN,/root/.bashrc,403,40
+8,admin777,DELETE,/var/log/nginx/access.log,200,300
+9,guest111,OPEN,http://example.com/api/v1/users?id=123,200,150
+10,bot001,CRAWL,/robots.txt,200,10
+11,weird001,OPEN,,???,-1
+purchase_id,user_id,amount,currency,status,timestamp
+1001,1,29.99,USD,success,2024-01-01 12:02:00
+1002,2,15.00,KRW,success,2024-01-01 12:03:00
+1003,5,0,USD,failed,2024-01-01 12:04:00
+1004,8,-10,USD,error,2024-01-01 12:05:00
+1005,1,9999,USD,success,2024-01-01 12:06:00
+1006,6,49.99,USD,success,2024-01-01 12:07:00
+rec_id,user_id,item_id,score,timestamp
+1,1,101,0.95,2024-01-01 12:01:00
+2,1,102,0.20,2024-01-01 12:01:00
+3,2,103,0.85,2024-01-01 12:02:00
+4,5,104,0.99,2024-01-01 12:03:00
+5,8,105,1.20,2024-01-01 12:04:00
+6,8,106,-0.50,2024-01-01 12:05:00
+event_time,user_id,session_id,page,referrer,action,duration
+2024-01-01T12:00:01Z,1,abc123,home,,view,5
+2024-01-01T12:00:03Z,1,abc123,search,home,click,2
+2024-01-01T12:00:05Z,1,abc123,product,search,view,10
+2024-01-01T12:00:07Z,1,abc123,product,search,add_to_cart,1
+2024-01-01T12:00:10Z,1,abc123,checkout,product,purchase,3
+2024-01-01T12:00:02Z,2,xyz999,home,,view,4
+2024-01-01T12:00:04Z,2,xyz999,product,home,view,8
+2024-01-01T12:00:06Z,2,xyz999,product,home,click,-1
+2024-01-01T12:00:08Z,2,xyz999,checkout,product,exit,0
+2024-01-01T12:00:01Z,5,hacker01,login,,view,1
+2024-01-01T12:00:02Z,5,hacker01,admin,login,click,1
+2024-01-01T12:00:03Z,5,hacker01,admin,login,click,1
+2024-01-01T12:00:04Z,5,hacker01,admin,login,click,1
+ad_id,user_id,session_id,impression_time,click_time,cost,revenue
+A1,1,abc123,2024-01-01T12:00:02Z,2024-01-01T12:00:03Z,0.50,2.00
+A2,2,xyz999,2024-01-01T12:00:03Z,,0.30,0
+A3,5,hacker01,2024-01-01T12:00:01Z,2024-01-01T12:00:02Z,0.10,0
+A4,8,weird001,2024-01-01T12:00:05Z,2024-01-01T12:00:05Z,-1,5.00
+A5,1,abc123,2024-01-01T12:00:06Z,2024-01-01T12:00:07Z,0.40,1.50
+user_id,experiment,variant,assigned_time
+1,checkout_ui,A,2024-01-01T11:59:00Z
+2,checkout_ui,B,2024-01-01T11:59:30Z
+5,checkout_ui,B,2024-01-01T11:59:45Z
+8,checkout_ui,A,2024-01-01T11:59:50Z
+error_time,session_id,error_code,message
+2024-01-01T12:00:06Z,xyz999,500,Internal Server Error
+2024-01-01T12:00:07Z,xyz999,NaN,Unknown Error
+2024-01-01T12:00:08Z,abc123,404,Not Found
+2024-01-01T12:00:09Z,hacker01,403,Forbidden
+2024-01-01T12:00:10Z,weird001,???,
+timestamp,cpu_usage,memory_usage,disk_io,network_latency
+2024-01-01T12:00:01Z,70,65,120,30
+2024-01-01T12:00:02Z,85,80,200,50
+2024-01-01T12:00:03Z,95,90,300,100
+2024-01-01T12:00:04Z,110,95,400,150
+2024-01-01T12:00:05Z,60,50,100,-10
+tx_id,user_id,amount,currency,merchant,tx_time,status
+T1,1,100,USD,Amazon,2024-01-01T12:00:01Z,success
+T2,1,2000,USD,Apple,2024-01-01T12:00:05Z,success
+T3,2,150,KRW,Coupang,2024-01-01T12:00:06Z,success
+T4,5,999999,USD,Unknown,2024-01-01T12:00:07Z,pending
+T5,5,-50,USD,Refund,2024-01-01T12:00:08Z,error
+T6,8,0,USD,TestStore,2024-01-01T12:00:09Z,failed
+T7,3,300,EUR,Adidas,2024-01-01T12:00:10Z,success
+T8,1,100,USD,Amazon,2024-01-01T12:00:11Z,duplicate
+user_id,device_id,device_type,os,last_used
+1,D1,Mobile,iOS,2024-01-01T12:00:01Z
+1,D2,Laptop,Windows,2024-01-01T11:50:00Z
+2,D3,Mobile,Android,2024-01-01T12:00:06Z
+5,D4,Unknown,,2024-01-01T12:00:07Z
+8,D5,Tablet,iOS,invalid_date
+tx_id,ip,country,city,lat,lon
+T1,192.168.0.1,US,NewYork,40.7128,-74.0060
+T2,192.168.0.1,US,NewYork,40.7128,-74.0060
+T3,10.0.0.5,KR,Seoul,37.5665,126.9780
+T4,185.23.44.12,RU,Moscow,55.7558,37.6173
+T5,185.23.44.12,RU,Moscow,55.7558,37.6173
+T6,999.999.999.999,???,???,0,0
+T7,172.16.0.1,DE,Berlin,52.52,13.4050
+T8,192.168.0.1,US,NewYork,40.7128,-74.0060
+currency,rate_to_usd,timestamp
+USD,1,2024-01-01T12:00:00Z
+KRW,0.00075,2024-01-01T12:00:00Z
+EUR,1.1,2024-01-01T12:00:00Z
+USD,1,2024-01-01T12:00:05Z
+KRW,INVALID,2024-01-01T12:00:05Z
+rule_id,description,threshold
+R1,High Amount,10000
+R2,Multiple Locations,2
+R3,Invalid Currency,1
+R4,Negative Amount,1
+R5,Duplicate Transaction,1
+event_time,user_id,session_id,event_type,item_id,price,device,location
+2024-01-01T12:00:01Z,1,abc123,view,101,10,Mobile,US
+2024-01-01T12:00:02Z,1,abc123,click,101,10,Mobile,US
+2024-01-01T12:00:03Z,1,abc123,purchase,101,10,Mobile,US
+2024-01-01T12:00:04Z,2,xyz999,view,102,20,Desktop,KR
+2024-01-01T12:00:05Z,2,xyz999,click,102,20,Desktop,KR
+2024-01-01T12:00:06Z,2,xyz999,view,103,-5,Desktop,KR
+2024-01-01T12:00:07Z,5,hacker01,view,999,999999,Unknown,RU
+2024-01-01T12:00:08Z,5,hacker01,click,999,999999,Unknown,RU
+2024-01-01T12:00:09Z,5,hacker01,purchase,999,999999,Unknown,RU
+2024-01-01T12:00:10Z,8,weird001,view,,0,,???
+user_id,avg_session_time,total_clicks,total_purchases,avg_price,device_diversity,risk_score
+1,120,5,2,10,1,0.1
+2,80,3,0,15,1,0.2
+5,10,20,10,999999,3,0.95
+8,-1,0,0,0,0,???
+user_id,is_fraud
+1,0
+2,0
+5,1
+8,1
+timestamp,active_users,transactions,revenue,error_rate
+2024-01-01T12:00:01Z,100,50,500,0.01
+2024-01-01T12:00:02Z,120,60,600,0.02
+2024-01-01T12:00:03Z,150,80,800,0.05
+2024-01-01T12:00:04Z,200,120,1200,0.20
+2024-01-01T12:00:05Z,50,10,100,0.50
+2024-01-01T12:00:06Z,-10,0,-100,1.50
+user_id,item_id,similarity_score,rank
+1,201,0.95,1
+1,202,0.80,2
+2,203,0.85,1
+5,999,1.50,1
+8,204,-0.20,1
+order_id,user_id,order_time,total_amount,status,payment_method
+O1,1,2024-01-01 12:00:01,100,completed,card
+O2,2,2024-01-01 12:01:00,200,completed,card
+O3,5,2024-01-01 12:02:00,999999,pending,crypto
+O4,8,2024-01-01 12:03:00,-50,failed,card
+O5,1,2024-01-01 12:04:00,0,completed,free
+order_id,item_id,quantity,price
+O1,101,2,50
+O1,102,1,0
+O2,103,1,200
+O3,999,1,999999
+O4,104,1,-50
+O5,105,0,10
+item_id,stock,last_updated,warehouse
+101,100,2024-01-01 11:00:00,A
+102,0,2024-01-01 11:30:00,A
+103,-10,2024-01-01 11:45:00,B
+104,50,2024-01-01 11:50:00,B
+105,999999,invalid_date,C
+999,1,2024-01-01 11:55:00,Unknown
+shipment_id,order_id,ship_time,delivery_time,status
+S1,O1,2024-01-01 12:10:00,2024-01-02 12:00:00,delivered
+S2,O2,2024-01-01 12:20:00,,shipped
+S3,O3,,,
+S4,O4,2024-01-01 12:30:00,2024-01-01 12:00:00,delivered
+user_id,name,age,gender,signup_date
+1,John,30,M,2023-12-01
+2,Emma,25,F,2023-12-05
+5,,NULL,,2024-01-01
+8,Test,-1,M,
+campaign_id,user_id,channel,clicks,impressions,conversion
+C1,1,email,10,100,1
+C2,2,ads,5,50,0
+C3,5,ads,100,100,1
+C4,8,unknown,-1,0,???
+view_id,user_id,item_id,view_time,duration
+V1,1,101,2024-01-01 12:00:01,5
+V2,1,102,2024-01-01 12:00:02,3
+V3,2,103,2024-01-01 12:00:03,10
+V4,5,999,2024-01-01 12:00:04,-1
+V5,8,105,2024-01-01 12:00:05,0
+view_id,user_id,item_id,view_time,duration
+V1,1,101,2024-01-01 12:00:01,5
+V2,1,102,2024-01-01 12:00:02,3
+V3,2,103,2024-01-01 12:00:03,10
+V4,5,999,2024-01-01 12:00:04,-1
+V5,8,105,2024-01-01 12:00:05,0
+device_id,model,install_date,location,maintenance_cycle_days
+M1,A100,2020-01-01,Factory1,30
+M2,B200,2021-06-01,Factory1,60
+M3,C300,invalid_date,Factory2,?
+log_id,device_id,maintenance_date,issue,resolved
+L1,M1,2024-01-01,Overheat,1
+L2,M2,2024-01-01,Sensor Failure,1
+L3,M3,2024-01-01,Vibration Spike,0
+L4,M3,,Unknown,0
+alert_id,device_id,alert_time,alert_type,severity
+A1,M1,2024-01-01T12:00:03Z,Temperature,HIGH
+A2,M3,2024-01-01T12:00:07Z,Vibration,CRITICAL
+A3,M2,2024-01-01T12:00:05Z,Temperature,LOW
+A4,M3,2024-01-01T12:00:08Z,Unknown,???
+timestamp,device_id,units_produced,defect_rate
+2024-01-01T12:00:01Z,M1,100,0.01
+2024-01-01T12:00:02Z,M1,110,0.02
+2024-01-01T12:00:03Z,M1,50,0.50
+2024-01-01T12:00:04Z,M2,90,0.01
+2024-01-01T12:00:05Z,M2,0,1.00
+2024-01-01T12:00:06Z,M3,120,0.02
+2024-01-01T12:00:07Z,M3,10,0.90
+user_id,name,role,signup_date,status
+1,John,user,2023-01-01,active
+2,Emma,user,2023-02-01,active
+3,Alex,user,2023-03-01,inactive
+4,Admin,admin,2022-01-01,active
+5,Hacker,unknown,2024-01-01,suspicious
+6,Bot,bot,2022-05-01,active
+device_id,type,os,owner_user_id
+D1,Mobile,iOS,1
+D2,Laptop,Windows,1
+D3,Mobile,Android,2
+D4,Server,Linux,4
+D5,Unknown,,5
+ip_id,ip_address,country,risk_score
+IP1,192.168.0.1,US,0.1
+IP2,10.0.0.5,KR,0.2
+IP3,185.23.44.12,RU,0.9
+IP4,66.249.66.1,US,0.3
+IP5,999.999.999.999,???,1.0
+tx_id,amount,currency,status
+T1,100,USD,success
+T2,999999,USD,pending
+T3,-50,USD,error
+T4,200,KRW,success
+source,target,relation,timestamp
+1,D1,USES,2024-01-01T12:00:01Z
+1,D2,USES,2024-01-01T12:00:02Z
+2,D3,USES,2024-01-01T12:00:03Z
+5,D5,USES,2024-01-01T12:00:04Z
+1,IP1,LOGGED_IN,2024-01-01T12:00:01Z
+2,IP2,LOGGED_IN,2024-01-01T12:00:03Z
+5,IP3,LOGGED_IN,2024-01-01T12:00:04Z
+5,IP5,LOGGED_IN,2024-01-01T12:00:05Z
+1,T1,MADE_TRANSACTION,2024-01-01T12:00:06Z
+5,T2,MADE_TRANSACTION,2024-01-01T12:00:07Z
+5,T3,MADE_TRANSACTION,2024-01-01T12:00:08Z
+2,T4,MADE_TRANSACTION,2024-01-01T12:00:09Z
+4,D4,ADMIN_ACCESS,2024-01-01T12:00:10Z
+5,4,ATTACK_ATTEMPT,2024-01-01T12:00:11Z
+6,IP4,CRAWL,2024-01-01T12:00:12Z
+timestamp,user_id,query,clicked_item,rank,device
+2024-01-01T12:00:01Z,1,"laptop",101,1,Mobile
+2024-01-01T12:00:02Z,1,"laptop case",102,2,Mobile
+2024-01-01T12:00:03Z,2,"핸드폰",103,1,Desktop
+2024-01-01T12:00:04Z,5,"free money hack",999,1,Unknown
+2024-01-01T12:00:05Z,8,"",,0,Tablet
+2024-01-01T12:00:06Z,2,"노트북",101,3,Desktop
+item_id,title,category,price,embedding
+101,"Laptop Pro 16",Electronics,1500,"[0.12,0.98,0.33]"
+102,"Laptop Case",Accessories,20,"[0.10,0.80,0.20]"
+103,"Smartphone X",Electronics,999,"[0.50,0.60,0.70]"
+999,"Hacking Tool",Illegal,0,"[NaN,NaN,NaN]"
+user_id,age,interests,embedding
+1,30,"electronics,work","[0.15,0.90,0.30]"
+2,25,"mobile,gaming","[0.45,0.70,0.60]"
+5,?, "unknown","[0.99,0.99,0.99]"
+8,-1,"","[]"
+image_id,item_id,resolution,size_kb,label
+IMG1,101,1920x1080,500,product
+IMG2,102,800x600,200,product
+IMG3,103,invalid,300,product
+IMG4,999,1024x1024,-50,unknown
+audio_id,user_id,transcript,duration,language
+A1,1,"buy laptop",3,en
+A2,2,"핸드폰 사고 싶어",4,ko
+A3,5,"hack system",2,en
+A4,8,"",0,unknown
+query_id,query_embedding,item_id,score
+Q1,"[0.12,0.95,0.30]",101,0.98
+Q1,"[0.12,0.95,0.30]",102,0.80
+Q2,"[0.50,0.60,0.70]",103,0.95
+Q3,"[0.99,0.99,0.99]",999,1.20
+Q4,"[]",101,-0.10
+timestamp,vehicle_id,x,y,speed,heading,road_type,weather
+2024-01-01T12:00:01Z,V1,10,20,50,0.0,city,clear
+2024-01-01T12:00:02Z,V1,15,25,55,0.1,city,clear
+2024-01-01T12:00:03Z,V1,20,30,120,0.2,highway,rain
+2024-01-01T12:00:04Z,V2,5,10,30,0.0,city,fog
+2024-01-01T12:00:05Z,V2,7,12,-10,0.0,city,fog
+2024-01-01T12:00:06Z,V3,0,0,0,NaN,unknown,storm
+timestamp,vehicle_id,action_type,value
+2024-01-01T12:00:01Z,V1,accelerate,5
+2024-01-01T12:00:02Z,V1,turn,0.1
+2024-01-01T12:00:03Z,V1,accelerate,100
+2024-01-01T12:00:04Z,V2,brake,10
+2024-01-01T12:00:05Z,V2,accelerate,-5
+2024-01-01T12:00:06Z,V3,unknown,NaN
+timestamp,vehicle_id,reward,reason
+2024-01-01T12:00:01Z,V1,1,safe_driving
+2024-01-01T12:00:02Z,V1,1,lane_keep
+2024-01-01T12:00:03Z,V1,-10,overspeed
+2024-01-01T12:00:04Z,V2,1,slow_drive
+2024-01-01T12:00:05Z,V2,-5,invalid_action
+2024-01-01T12:00:06Z,V3,NaN,error
+collision_id,vehicle_id,timestamp,impact_force,object
+C1,V1,2024-01-01T12:00:03Z,500,car
+C2,V2,2024-01-01T12:00:05Z,0,none
+C3,V3,2024-01-01T12:00:06Z,-10,unknown
+timestamp,vehicle_id,lidar_distance,camera_objects,gps_accuracy
+2024-01-01T12:00:01Z,V1,30,"car,pedestrian",5
+2024-01-01T12:00:02Z,V1,25,"car",5
+2024-01-01T12:00:03Z,V1,5,"car,car",10
+2024-01-01T12:00:04Z,V2,50,"none",3
+2024-01-01T12:00:05Z,V2,-1,"unknown",NaN
+2024-01-01T12:00:06Z,V3,NaN,"",999
+timestamp,vehicle_id,lidar_distance,camera_objects,gps_accuracy
+2024-01-01T12:00:01Z,V1,30,"car,pedestrian",5
+2024-01-01T12:00:02Z,V1,25,"car",5
+2024-01-01T12:00:03Z,V1,5,"car,car",10
+2024-01-01T12:00:04Z,V2,50,"none",3
+2024-01-01T12:00:05Z,V2,-1,"unknown",NaN
+2024-01-01T12:00:06Z,V3,NaN,"",999
+entity_id,name,type
+E1,John,Person
+E2,Emma,Person
+E3,Seoul,City
+E4,Korea,Country
+E5,CompanyX,Organization
+E6,ProductA,Product
+E7,Hacker,Person
+E8,Server1,System
+source,relation,target
+E1,LIVES_IN,E3
+E3,LOCATED_IN,E4
+E1,WORKS_AT,E5
+E5,SELLS,E6
+E7,ATTACKS,E8
+E7,LIVES_IN,E4
+E2,LIVES_IN,E3
+E2,WORKS_AT,E5
+E1,FRIEND_OF,E2
+E2,FRIEND_OF,E1
+entity_id,attribute,value
+E1,age,30
+E2,age,25
+E3,population,10000000
+E4,continent,Asia
+E6,price,100
+E6,price,-50
+E7,risk_score,0.95
+E8,status,active
+rule_id,rule
+R1,IF Person LIVES_IN City AND City LOCATED_IN Country THEN Person LIVES_IN Country
+R2,IF Person WORKS_AT Organization AND Organization SELLS Product THEN Person ASSOCIATED_WITH Product
+R3,IF Person ATTACKS System THEN Person IS_THREAT
+R4,IF price < 0 THEN INVALID_PRODUCT
+fact_id,statement,confidence
+F1,E1 LIVES_IN E3,0.9
+F2,E3 LOCATED_IN E4,0.95
+F3,E1 LIVES_IN E4,0.5
+F4,E6 price -50,0.8
+F5,E7 IS_THREAT,0.6
+F6,E7 IS_THREAT,0.2
+F7,E2 FRIEND_OF E1,1.0
+F8,E1 FRIEND_OF E2,0.4
+agent_id,type,age,wealth,location,health,status
+A1,human,30,1000,City1,80,active
+A2,human,25,500,City1,90,active
+A3,human,70,200,City2,40,sick
+A4,bot,?,0,City1,100,active
+A5,human,-1,-100,Unknown,NaN,unknown
+timestamp,city,pollution,temperature,traffic,economy_index
+2024-01-01T12:00:01Z,City1,50,20,70,100
+2024-01-01T12:00:02Z,City1,80,25,90,95
+2024-01-01T12:00:03Z,City1,200,50,100,60
+2024-01-01T12:00:04Z,City2,30,-10,20,110
+2024-01-01T12:00:05Z,City2,NaN,NaN,NaN,NaN
+tx_id,agent_id,amount,type,timestamp
+T1,A1,100,spend,2024-01-01T12:00:01Z
+T2,A2,200,earn,2024-01-01T12:00:02Z
+T3,A3,50,spend,2024-01-01T12:00:03Z
+T4,A5,-100,spend,2024-01-01T12:00:04Z
+T5,A4,0,unknown,2024-01-01T12:00:05Z
+timestamp,agent_id,from,to,distance
+2024-01-01T12:00:01Z,A1,City1,City1,1
+2024-01-01T12:00:02Z,A2,City1,City2,100
+2024-01-01T12:00:03Z,A3,City2,City1,100
+2024-01-01T12:00:04Z,A5,Unknown,City1,-10
+policy_id,description,effect
+P1,Tax Increase,reduce_wealth
+P2,Healthcare Boost,increase_health
+P3,Pollution Control,reduce_pollution
+P4,Unknown,???
+event_id,type,impact,timestamp
+E1,festival,increase_happiness,2024-01-01T12:00:02Z
+E2,crisis,reduce_economy,2024-01-01T12:00:03Z
+E3,disaster,reduce_health,2024-01-01T12:00:04Z
+E4,unknown,?,2024-01-01T12:00:05Z
+obs_id,agent_id,action,environment,outcome,timestamp
+O1,A1,invest,stable,profit,2024-01-01T12:00:01Z
+O2,A2,invest,volatile,loss,2024-01-01T12:00:02Z
+O3,A3,save,stable,neutral,2024-01-01T12:00:03Z
+O4,A4,invest,crisis,loss,2024-01-01T12:00:04Z
+O5,A5,unknown,unknown,error,2024-01-01T12:00:05Z
+intervention_id,agent_id,changed_action,reason
+I1,A2,save,risk_avoidance
+I2,A4,save,policy_enforced
+I3,A5,invest,correction
+cf_id,obs_id,alternative_action,predicted_outcome,confidence
+CF1,O2,save,neutral,0.8
+CF2,O4,save,neutral,0.7
+CF3,O1,save,neutral,0.6
+CF4,O3,invest,profit,0.5
+CF5,O5,invest,unknown,0.2
+cause,effect,strength
+action,outcome,0.9
+environment,outcome,0.8
+policy,action,0.7
+agent_risk,action,0.6
+noise,outcome,0.2
+experiment_id,group,policy,outcome_metric
+E1,control,none,0.5
+E2,treatment,tax_increase,0.3
+E3,treatment,subsidy,0.7
+E4,treatment,unknown,NaN
+experiment_id,group,policy,outcome_metric
+E1,control,none,0.5
+E2,treatment,tax_increase,0.3
+E3,treatment,subsidy,0.7
+E4,treatment,unknown,NaN
+event_id,timeline_id,timestamp,event_type,agent_id
+E1,T1,2024-01-01T12:00:01Z,decision,A1
+E2,T2,2024-01-01T12:00:01Z,decision,A1
+E3,T3,2024-01-01T12:00:02Z,paradox,A1
+E4,T1,2024-01-01T12:00:03Z,action,A2
+E5,T2,2024-01-01T12:00:03Z,action,A2
+E6,T3,2024-01-01T12:00:04Z,collapse,A3
+state_id,timeline_id,agent_id,wealth,health,status
+S1,T1,A1,100,80,alive
+S2,T2,A1,200,90,alive
+S3,T3,A1,0,0,unknown
+S4,T1,A2,50,70,alive
+S5,T2,A2,-10,60,injured
+S6,T3,A3,NaN,NaN,erased
+from_state,to_state,action,probability
+S1,S2,invest,0.6
+S1,S3,paradox,0.4
+S4,S5,loss,0.7
+S4,S4,stable,0.3
+S2,S6,collapse,0.9
+paradox_id,description,severity,timeline_id
+P1,Agent exists and not exists simultaneously,CRITICAL,T3
+P2,Negative wealth loop,HIGH,T2
+P3,State without cause,MEDIUM,T3
+merge_id,source_timeline,target_timeline,result
+M1,T2,T1,partial_merge
+M2,T3,T1,failed
+M3,T2,T3,unstable
+timestamp,model_id,version,loss,accuracy,status
+2024-01-01T12:00:01Z,M1,v1,0.5,0.7,training
+2024-01-01T12:00:02Z,M1,v1,0.4,0.75,training
+2024-01-01T12:00:03Z,M1,v2,0.3,0.80,updating
+2024-01-01T12:00:04Z,M1,v2,NaN,NaN,corrupted
+2024-01-01T12:00:05Z,M2,v1,1.5,0.2,failed
+timestamp,model_id,layer,gradient_norm
+2024-01-01T12:00:01Z,M1,L1,0.01
+2024-01-01T12:00:02Z,M1,L2,0.02
+2024-01-01T12:00:03Z,M1,L3,10.0
+2024-01-01T12:00:04Z,M1,L4,NaN
+2024-01-01T12:00:05Z,M2,L1,-5.0
+input_id,model_id,prediction,confidence
+I1,M1,cat,0.9
+I2,M1,dog,0.8
+I3,M1,unknown,NaN
+I4,M2,error,-0.5
+input_id,true_label,correct
+I1,cat,1
+I2,dog,1
+I3,bird,0
+I4,dog,0
+update_id,model_id,change,reason
+U1,M1,learning_rate_down,stabilize
+U2,M1,drop_layer,overfit
+U3,M2,reset,collapse
+U4,M1,unknown,???
+log_id,model_id,issue,severity
+A1,M1,gradient_explosion,HIGH
+A2,M1,NaN_loss,CRITICAL
+A3,M2,negative_confidence,HIGH
+A4,M1,self_modification_loop,CRITICAL
+timestamp,agent_id,thought,emotion,focus_level
+2024-01-01T12:00:01Z,A1,"I should work",neutral,0.8
+2024-01-01T12:00:02Z,A1,"Why am I tired?",fatigue,0.5
+2024-01-01T12:00:03Z,A1,"Coffee might help",hope,0.7
+2024-01-01T12:00:04Z,A2,"I feel nothing",void,0.1
+2024-01-01T12:00:05Z,A3,"???",unknown,NaN
+agent_id,identity,confidence,stability
+A1,worker,0.9,stable
+A2,observer,0.6,unstable
+A3,unknown,0.2,fragmented
+A4,multiple,0.4,unstable
+memory_id,agent_id,content,clarity,timestamp
+M1,A1,"finished project",0.9,2023-12-01
+M2,A1,"forgot something",0.3,2023-12-02
+M3,A2,"empty",0.1,2023-12-03
+M4,A3,"corrupted",NaN,invalid_date
+timestamp,agent_id,input,interpretation,certainty
+2024-01-01T12:00:01Z,A1,noise,"background sound",0.8
+2024-01-01T12:00:02Z,A2,light,"unknown",0.2
+2024-01-01T12:00:03Z,A3,signal,"error",NaN
+agent_id,statement1,statement2,severity
+A1,"I am focused","I cannot think",HIGH
+A2,"I exist","I do not exist",CRITICAL
+A3,"All is clear","Everything is corrupted",CRITICAL
+symbol,meaning,confidence
+work,"purpose",0.9
+coffee,"energy",0.8
+void,"absence",0.6
+???,"unknown",0.1
+state_id,agent_id,possible_states,probabilities
+S1,A1,"{working, resting}",[0.6,0.4]
+S2,A2,"{happy, sad, neutral}",[0.3,0.3,0.4]
+S3,A3,"{exists, not_exists}",[0.5,0.5]
+S4,A4,"{known, unknown}",[NaN,NaN]
+obs_id,state_id,observed_state,confidence
+O1,S1,working,0.9
+O2,S2,sad,0.7
+O3,S3,exists,0.5
+O4,S4,unknown,0.1
+collapse_id,state_id,chosen_state,reason
+C1,S1,working,high_probability
+C2,S2,sad,random
+C3,S3,exists,observer_effect
+C4,S4,unknown,undefined
+observer_id,type,influence_level
+OB1,human,0.8
+OB2,ai,0.9
+OB3,unknown,NaN
+state_id,interfering_state,effect
+S1,S2,shift_probability
+S2,S3,collapse_trigger
+S3,S4,undefined
+state_id,entropy,uncertainty_level
+S1,0.5,medium
+S2,0.9,high
+S3,1.0,maximum
+S4,NaN,undefined
+generator_id,type,description,stability
+G1,stochastic,random_event_generator,0.8
+G2,deterministic,rule_based_generator,0.95
+G3,adaptive,self_learning_generator,0.6
+G4,unknown,undefined,NaN
+rule_id,generator_id,rule,priority
+R1,G1,IF random < 0.5 THEN state=A,1
+R2,G2,IF input=X THEN output=Y,2
+R3,G3,UPDATE rule based on feedback,1
+R4,G4,???,
+seed_id,initial_state,parameters
+S1,empty,"{}"
+S2,partial,"{x:1,y:2}"
+S3,chaotic,"random"
+S4,unknown,"NaN"
+output_id,generator_id,seed_id,result,validity
+O1,G1,S1,A,0.9
+O2,G2,S2,Y,1.0
+O3,G3,S3,unstable,0.3
+O4,G4,S4,unknown,NaN
+loop_id,output_id,feedback,adjustment
+F1,O1,good,increase_probability
+F2,O3,bad,reduce_variance
+F3,O4,unknown,no_change
+meta_rule_id,description
+MR1,Generators can modify their own rules
+MR2,Rules can generate new rules
+MR3,Outputs influence generators
+MR4,System may become unstable
+meta_rule_id,description
+MR1,Generators can modify their own rules
+MR2,Rules can generate new rules
+MR3,Outputs influence generators
+MR4,System may become unstable
+type_id,definition,level
+T1,Entity,0
+T2,Relation,1
+T3,Function,2
+T4,Type_of_Types,3
+T5,Unknown,NaN
+term_id,type_id,representation,valid
+M1,T1,x,1
+M2,T2,R(x,y),1
+M3,T3,f(x),1
+M4,T4,Type(T1),0.8
+M5,T5,?,0
+rule_id,rule,applicable
+IR1,Modus_Ponens,1
+IR2,Universal_Instantiation,1
+IR3,Contradiction_Elimination,0.7
+IR4,Undefined,NaN
+proof_id,axiom_used,rule_used,derived_statement,validity
+P1,A1,IR1,x=x,1.0
+P2,A2,IR3,contradiction,0.3
+P3,A3,IR2,y=x,0.9
+P4,A4,IR4,undefined,NaN
+check_id,system_state,is_consistent,notes
+C1,initial,1,stable
+C2,after_A2,0,contradiction_detected
+C3,after_P2,0,unstable
+C4,unknown,NaN,undefined
+version_id,timestamp,description,stability
+L1,2024-01-01T12:00:01Z,classical_logic,0.9
+L2,2024-01-01T12:00:02Z,paraconsistent_logic,0.7
+L3,2024-01-01T12:00:03Z,quantum_logic,0.6
+L4,2024-01-01T12:00:04Z,self_modified_logic,NaN
+symbol_id,representation,meaning,version_id
+S1,∧,AND,L1
+S2,∨,OR,L1
+S3,¬,NOT,L1
+S4,¬,WEAK_NEGATION,L2
+S5,⊕,SUPERPOSITION,L3
+S6,?,UNKNOWN,L4
+formula_id,expression,truth_value,version_id
+F1,x ∧ y,1,L1
+F2,x ∧ ¬x,0,L1
+F3,x ∧ ¬x,1,L2
+F4,x ⊕ y,0.5,L3
+F5,?,NaN,L4
+rewrite_id,from_version,to_version,change,impact
+R1,L1,L2,allow_contradiction,high
+R2,L2,L3,introduce_superposition,medium
+R3,L3,L4,self_modify_rules,unknown
+symbol_id,old_meaning,new_meaning,version_id
+S3,NOT,WEAK_NEGATION,L2
+S5,SUPERPOSITION,PROBABILISTIC_STATE,L3
+S6,UNKNOWN,SELF_DEFINED,L4
+timestamp,version_id,is_consistent,notes
+2024-01-01T12:00:01Z,L1,1,stable
+2024-01-01T12:00:02Z,L2,1,contradictions_allowed
+2024-01-01T12:00:03Z,L3,0,uncertain_truth
+2024-01-01T12:00:04Z,L4,NaN,undefined
+observer_id,type,belief_system,confidence
+OB1,human,realist,0.9
+OB2,ai,probabilistic,0.8
+OB3,agent,subjective,0.6
+OB4,unknown,undefined,NaN
+obs_id,observer_id,event,observed_value,certainty
+O1,OB1,E1,TRUE,0.95
+O2,OB2,E1,0.8,0.8
+O3,OB3,E1,FEELS_TRUE,0.6
+O4,OB4,E1,UNKNOWN,NaN
+reality_id,observer_id,definition,stability
+R1,OB1,objective_world,0.9
+R2,OB2,probabilistic_world,0.8
+R3,OB3,subjective_world,0.6
+R4,OB4,undefined_world,NaN
+conflict_id,event,observer1,observer2,disagreement_level
+C1,E1,OB1,OB2,medium
+C2,E1,OB1,OB3,high
+C3,E1,OB2,OB3,low
+recon_id,method,description,effectiveness
+RC1,averaging,combine_probabilities,0.7
+RC2,priority,trust_high_confidence,0.8
+RC3,contextual,choose_based_on_context,0.6
+RC4,ignore,discard_conflict,0.2
+meta_id,observes,decision_rule
+MO1,all_observers,weighted_merge
+MO2,conflicts_only,resolve_max_conflict
+MO3,unknown,undefined
+observer_id,state,type,creation_time,deletion_time
+OB1,active,human,2024-01-01T12:00:01Z,
+OB2,active,ai,2024-01-01T12:00:02Z,
+OB3,inactive,agent,2024-01-01T12:00:03Z,2024-01-01T12:00:10Z
+OB4,emerging,unknown,2024-01-01T12:00:04Z,
+OB5,collapsed,undefined,2024-01-01T12:00:05Z,2024-01-01T12:00:06Z
+timestamp,observer_id,awareness,stability,focus
+2024-01-01T12:00:01Z,OB1,0.9,stable,0.8
+2024-01-01T12:00:02Z,OB2,0.8,stable,0.7
+2024-01-01T12:00:03Z,OB3,0.3,unstable,0.2
+2024-01-01T12:00:04Z,OB4,0.1,emerging,NaN
+2024-01-01T12:00:05Z,OB5,NaN,collapsed,0
+interaction_id,observer1,observer2,type,effect
+I1,OB1,OB2,collaboration,merge_views
+I2,OB2,OB3,conflict,distortion
+I3,OB3,OB4,creation,spawn_observer
+I4,OB4,OB5,collapse,remove_observer
+space_id,dimension,complexity,observer_count
+S1,3D,medium,2
+S2,probabilistic,high,3
+S3,undefined,NaN,NaN
+effect_id,observer_id,target,change
+E1,OB1,state,collapse_to_true
+E2,OB2,probability,normalize
+E3,OB3,perception,distort
+E4,OB4,existence,create
+E5,OB5,existence,delete
+log_id,entity_id,event,type
+L1,OB4,created,emergence
+L2,OB5,deleted,collapse
+L3,OB3,changed,state_shift
+L4,OBX,unknown,undefined
+void_id,description,entropy,potential
+V1,absolute_void,1.0,0.0
+V2,unstable_void,0.9,0.2
+V3,fluctuating_void,0.8,0.5
+V4,proto_state,0.7,0.8
+fluctuation_id,void_id,intensity,trigger
+F1,V2,0.2,random_noise
+F2,V3,0.5,internal_instability
+F3,V4,0.9,threshold_cross
+F4,V1,NaN,undefined
+emergence_id,source,generated_entity,stability
+E1,V3,observer_proto,0.3
+E2,V4,state_proto,0.5
+E3,F3,rule_proto,0.6
+E4,V1,?,NaN
+structure_id,components,coherence
+S1,"observer_proto + state_proto",0.4
+S2,"rule_proto + observer_proto",0.6
+S3,"all_combined",0.8
+S4,"undefined",NaN
+stabilization_id,structure_id,method,result
+ST1,S1,feedback_loop,partial_stable
+ST2,S2,rule_enforcement,stable
+ST3,S3,self_organization,highly_stable
+ST4,S4,unknown,undefined
+trigger_id,condition,action
+RT1,instability_detected,return_to_void
+RT2,over_complexity,reset_system
+RT3,collapse_event,restart_cycle
+RT4,unknown,???
+trigger_id,condition,action
+RT1,instability_detected,return_to_void
+RT2,over_complexity,reset_system
+RT3,collapse_event,restart_cycle
+RT4,unknown,???
+desc_id,snapshot_id,statement,confidence
+D1,U1,"This system is consistent",0.9
+D2,U2,"This system is expanding",0.8
+D3,U3,"This system is unstable",0.6
+D4,U4,"This system defines itself",NaN
+desc_id,snapshot_id,statement,confidence
+D1,U1,"This system is consistent",0.9
+D2,U2,"This system is expanding",0.8
+D3,U3,"This system is unstable",0.6
+D4,U4,"This system defines itself",NaN
+mod_id,snapshot_id,change,impact
+M1,U2,add_rules,medium
+M2,U3,remove_constraints,high
+M3,U4,rewrite_definitions,unknown
+loop_id,source,target,type
+L1,U1,U2,expansion
+L2,U2,U3,instability
+L3,U3,U4,self_reference
+L4,U4,U4,infinite_loop
+paradox_id,location,description,severity
+P1,U3,"system contradicts itself",HIGH
+P2,U4,"definition depends on itself",CRITICAL
+P3,U4,"infinite recursion",CRITICAL
+condition_id,rule,result
+C1,self_consistency,stable_universe
+C2,contradiction,collapse
+C3,infinite_loop,undefined
+C4,self_reference,resolved_or_not
+universe_id,type,origin,stability
+U1,deterministic,seed_A,0.9
+U2,probabilistic,seed_B,0.8
+U3,self_referential,U1,0.6
+U4,emergent,unknown,NaN
+link_id,source,target,relation,strength
+L1,U1,U2,creates,0.7
+L2,U2,U3,influences,0.6
+L3,U3,U1,modifies,0.8
+L4,U4,U2,undefined,NaN
+rule_id,description,applies_to
+CR1,Universe can spawn another universe,all
+CR2,Universe can rewrite parent,recursive
+CR3,Universe may collapse others,unstable
+CR4,Unknown rule,undefined
+transfer_id,from_universe,to_universe,data_type,impact
+T1,U1,U2,state,medium
+T2,U2,U3,rule,high
+T3,U3,U1,definition,critical
+T4,U4,U2,unknown,NaN
+conflict_id,universe1,universe2,issue,severity
+C1,U1,U2,rule_mismatch,HIGH
+C2,U2,U3,definition_loop,CRITICAL
+C3,U3,U1,self_override,CRITICAL
+state_id,active_universes,entropy,stability
+MB1,3,0.6,stable
+MB2,4,0.8,unstable
+MB3,2,0.4,highly_stable
+MB4,?,NaN,undefined
+frame_id,paradigm,description,stability
+F1,statistical,data as probability,0.9
+F2,logical,data as truth values,0.8
+F3,semantic,data as meaning,0.7
+F4,phenomenological,data as experience,0.6
+F5,undefined,?,NaN
+data_id,value
+D1,1
+D2,0
+D3,?
+D4,NaN
+interp_id,frame_id,data_id,interpreted_value
+I1,F1,D1,0.9
+I2,F2,D1,TRUE
+I3,F3,D1,"affirmation"
+I4,F4,D1,"felt_presence"
+I5,F1,D2,0.1
+I6,F2,D2,FALSE
+I7,F3,D2,"negation"
+I8,F4,D2,"absence"
+transition_id,from_frame,to_frame,trigger
+T1,F1,F2,need_for_logic
+T2,F2,F3,need_for_meaning
+T3,F3,F4,need_for_experience
+T4,F4,F1,quantification
+conflict_id,data_id,frame1,frame2,issue
+C1,D1,F1,F2,probability_vs_truth
+C2,D1,F2,F3,truth_vs_meaning
+C3,D2,F3,F4,meaning_vs_experience
+meta_id,description,selection_rule
+MF1,choose_best_frame,max_consistency
+MF2,combine_frames,weighted_merge
+MF3,switch_contextually,context_based
+MF4,undefined,?
+timestamp,mode,active_frame,active_universe,stability
+2024-01-01T12:00:01Z,initial,F1,U1,0.9
+2024-01-01T12:00:02Z,adaptive,F2,U2,0.8
+2024-01-01T12:00:03Z,recursive,F3,U3,0.6
+2024-01-01T12:00:04Z,self_modifying,F4,U4,NaN
+input_id,source,type,value
+I1,sensor,data,1
+I2,user,query,"what is truth?"
+I3,system,feedback,0.7
+I4,unknown,?,NaN
+step_id,operation,description
+P1,frame_selection,choose interpretation frame
+P2,rule_application,apply logic/causal rules
+P3,observer_mapping,map to observer perspective
+P4,generation,produce output
+P5,self_update,modify system
+output_id,input_id,result,confidence,frame_used
+O1,I1,TRUE,0.9,F2
+O2,I2,"truth is relative",0.6,F3
+O3,I3,adjusted_state,0.8,F1
+O4,I4,unknown,NaN,F5
+feedback_id,output_id,signal,impact
+F1,O1,positive,reinforce_rule
+F2,O2,negative,adjust_frame
+F3,O3,neutral,no_change
+F4,O4,unknown,undefined
+evolution_id,trigger,change,result
+E1,low_accuracy,update_rules,improved
+E2,conflict_detected,add_frame,expanded
+E3,instability,reset_system,stable
+E4,unknown,?,undefined
+boot_id,source,initial_condition,validity
+B1,external_seed,minimal_data,0.9
+B2,previous_output,derived_state,0.8
+B3,self_generated,recursive_start,0.6
+B4,undefined,?,NaN
+carry_id,from_output,to_boot,transformation
+C1,O1,B2,identity
+C2,O2,B2,semantic_shift
+C3,O3,B3,structural_update
+C4,O4,B4,undefined
+comp_id,input_state,compressed_form,loss
+CP1,B2,minimal_representation,0.2
+CP2,B3,abstract_pattern,0.3
+CP3,B1,raw_copy,0.0
+CP4,B4,unknown,NaN
+regen_id,compressed_form,new_state,stability
+R1,CP1,expanded_state,0.8
+R2,CP2,emergent_state,0.6
+R3,CP3,identical_state,1.0
+R4,CP4,undefined,NaN
+drift_id,state_id,change,accumulation
+D1,R1,small_variation,0.1
+D2,R2,structural_change,0.3
+D3,R3,none,0.0
+D4,R4,unknown,NaN
+term_id,condition,action
+T1,stability_high,continue
+T2,instability_high,reset
+T3,loop_detected,halt_or_restart
+T4,undefined,?
+snapshot_id,description,complexity,entropy
+S1,full_system_state,1.0,0.8
+S2,compressed_state,0.7,0.6
+S3,minimal_representation,0.3,0.4
+S4,singular_point,0.0,NaN
+projection_id,source,target,loss
+P1,S1,S2,0.2
+P2,S2,S3,0.3
+P3,S3,S4,0.4
+P4,S4,S1,undefined
+encoding_id,input,encoded_form,compression_ratio
+E1,S1,"pattern_A",0.5
+E2,S2,"pattern_B",0.6
+E3,S3,"pattern_C",0.8
+E4,S4,".",1.0
+recon_id,encoded_form,reconstructed_state,accuracy
+R1,"pattern_A",S1,0.9
+R2,"pattern_B",S2,0.85
+R3,"pattern_C",S3,0.8
+R4,".",S1,NaN
+distortion_id,source,error_type,magnitude
+D1,S1,information_loss,0.2
+D2,S2,structural_shift,0.3
+D3,S3,pattern_noise,0.4
+D4,S4,undefined,NaN
+invariant_id,property,preserved
+I1,structure_pattern,1
+I2,causal_relations,0.8
+I3,semantic_meaning,0.6
+I4,exact_values,0
