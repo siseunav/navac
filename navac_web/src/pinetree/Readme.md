@@ -317,3 +317,6 @@ tail -f nohup.out
 nohup ./log_watch.sh > log_watch.log 2>&1 &
 # 이걸 사용하래이.
 nohup ./log_pinetree.sh | tee -a log_watch.log &
+
+
+F:\Workspace_nav\NAVac\navac
