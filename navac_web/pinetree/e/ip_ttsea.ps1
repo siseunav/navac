@@ -3,7 +3,7 @@
 # Windows PowerShell Version
 # =====================================
 
-$LOG_FILE = ".\exip_watch.log"
+$LOG_FILE = "I:\wsl\t-t-sea.log"
 
 # 설정
 $THRESHOLD = 10
