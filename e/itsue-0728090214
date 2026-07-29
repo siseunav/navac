@@ -44,4 +44,174 @@ nchkga-aj-in-f5.1e100.net [142.250.197.133](으)로 가는 경로 추적:
   2    4ms     0/ 100 =  0%     0/ 100 =  0%  192.168.219.1
 
 추적을 완료했습니다.
-PS C:\Windows\system32>
+2026-07-28 09:02:08 ?뱧 GEO : {   "ip": "15.134.65.143",   "hostname": "ec2-15-134-65-143.ap-southeast-2.compute.amazonaws.com",   "city": "Sydney",   "region": "New South Wales",   "country": "AU",   "loc": "-33.8678,151.2073",   "org": "AS16509 Amazon.com, Inc.",   "postal": "1001",   "timezone": "Australia/Sydney",   "readme": "https://ipinfo.io/missingauth" }
+2026-07-28 09:02:08 15.134.65.143   COUNT:1  ?뙋 Unknown                                                         
+PS C:\Windows\system32> pathping 15.134.65.143
+
+최대 30홉 이상의
+ec2-15-134-65-143.ap-southeast-2.compute.amazonaws.com [15.134.65.143](으)로 가는 경로 추적:
+  0  LINUX-U54112123.Davolink [192.168.123.111]
+  1  192.168.123.1
+  2  192.168.219.1
+  3     *        *        *
+50초 동안 통계 계산 중...
+            여기에 공급      이 노드/링크
+홉   RTT    손실/보냄 = Pct  손실/보냄 = Pct  주소
+  0                                           LINUX-U54112123.Davolink [192.168.123.111]
+                                0/ 100 =  0%   |
+  1    2ms     0/ 100 =  0%     0/ 100 =  0%  192.168.123.1
+                                0/ 100 =  0%   |
+  2    3ms     0/ 100 =  0%     0/ 100 =  0%  192.168.219.1
+
+추적을 완료했습니다.
+PS C:\Windows\system32> tracert 15.134.65.143
+
+최대 30홉 이상의
+ec2-15-134-65-143.ap-southeast-2.compute.amazonaws.com [15.134.65.143](으)로 가는 경로 추적:
+
+  1     1 ms     1 ms     1 ms  192.168.123.1
+  2     9 ms     6 ms     8 ms  192.168.219.1
+  3     *        *        *     요청 시간이 만료되었습니다.
+  4     2 ms     1 ms     1 ms  10.244.133.21
+  5    19 ms     7 ms     7 ms  100.78.21.9
+  6     3 ms     5 ms     4 ms  1.208.179.117
+  7     3 ms     3 ms     3 ms  1.213.114.74
+  8     *        *        *     요청 시간이 만료되었습니다.
+  9     *        *        *     요청 시간이 만료되었습니다.
+ 10     *        *        *     요청 시간이 만료되었습니다.
+ 11     *        *        *     요청 시간이 만료되었습니다.
+ 12     *        *        *     요청 시간이 만료되었습니다.
+ 13     *        *        *     요청 시간이 만료되었습니다.
+ 14     *        *        *     요청 시간이 만료되었습니다.
+ 15     *        *        *     요청 시간이 만료되었습니다.
+ 16     *        *        *     요청 시간이 만료되었습니다.
+ 17     *        *        *     요청 시간이 만료되었습니다.
+ 18     *        *        *     요청 시간이 만료되었습니다.
+ 19     *        *        *     요청 시간이 만료되었습니다.
+ 20     *        *        *     요청 시간이 만료되었습니다.
+ 21     *        *        *     요청 시간이 만료되었습니다.
+ 22     *        *        *     요청 시간이 만료되었습니다.
+ 23     *        *        *     요청 시간이 만료되었습니다.
+ 24     *        *        *     요청 시간이 만료되었습니다.
+ 25     *        *        *     요청 시간이 만료되었습니다.
+ 26     *        *        *     요청 시간이 만료되었습니다.
+ 27     *        *        *     요청 시간이 만료되었습니다.
+ 28     *        *        *     요청 시간이 만료되었습니다.
+ 29     *        *        *     요청 시간이 만료되었습니다.
+ 30     *        *        *     요청 시간이 만료되었습니다.
+
+추적을 완료했습니다.
+PS C:\Windows\system32> Test-NetConnection 15.134.65.143                                                                
+경고: Ping to 15.134.65.143 failed with status: TimedOut                                                                                                                                                                                                                                                                                                                ComputerName           : 15.134.65.143                                                                                  RemoteAddress          : 15.134.65.143                                                                                  InterfaceAlias         : Wi-Fi                                                                                          SourceAddress          : 192.168.123.111                                                                                PingSucceeded          : False                                                                                          PingReplyDetails (RTT) : 0 ms                                                                                                                                                                                                                   
+
+PS C:\Windows\system32> Test-NetConnection 15.134.65.143 -Port 443
+PS C:\Windows\system32> Test-NetConnection 15.134.65.143                                                                경고: Ping to 15.134.65.143 failed with status: TimedOut                                                                                                                                                                                                                                                                                                                ComputerName           : 15.134.65.143                                                                                  RemoteAddress          : 15.134.65.143                                                                                  InterfaceAlias         : Wi-Fi                                                                                          SourceAddress          : 192.168.123.111                                                                                PingSucceeded          : False                                                                                          PingReplyDetails (RTT) : 0 ms                                                                                                                                                                                                                   
+
+PS C:\Windows\system32> Test-NetConnection 15.134.65.143 -Port 443
+
+
+ComputerName     : 15.134.65.143
+RemoteAddress    : 15.134.65.143
+RemotePort       : 443
+InterfaceAlias   : Wi-Fi
+SourceAddress    : 192.168.123.111
+TcpTestSucceeded : True
+
+ComputerName     : 15.134.65.143
+RemoteAddress    : 15.134.65.143
+RemotePort       : 443
+InterfaceAlias   : Wi-Fi
+SourceAddress    : 192.168.123.111
+TcpTestSucceeded : True
+
+2026-07-28 09:02:21 ?뱧 GEO : {   "ip": "135.149.173.69",   "city": "Osaka",   "region": "Osaka",   "country": "JP",   "loc": "34.6938,135.5011",   "org": "AS8075 Microsoft Corporation",   "postal": "543-0062",   "timezone": "Asia/Tokyo",   "readme": "https://ipinfo.io/missingauth" }
+2026-07-28 09:02:21 135.149.173.69  COUNT:1  ?뙋 Unknown                                                         
+2026-07-28 09:02:21 ?뙋 IP : 23.211.14.144 COUNT : 1
+2026-07-28 09:02:21 ?뱧 GEO : {   "ip": "98.95.204.15",   "hostname": "ec2-98-95-204-15.compute-1.amazonaws.com",   "city": "Ashburn",   "region": "Virginia",   "country": "US",   "loc": "39.0437,-77.4875",   "org": "AS14618 Amazon.com, Inc.",   "postal": "20147",   "timezone": "America/New_York",   "readme": "https://ipinfo.io/missingauth" }
+2026-07-28 09:02:21 98.95.204.15    COUNT:1  ?뙋 Unknown                                                         
+2026-07-28 09:02:21 ?뙋 IP : 172.64.148.235 COUNT : 1
+2026-07-28 09:02:21 ?뱧 GEO : {   "ip": "23.211.14.144",   "hostname": "a23-211-14-144.deploy.static.akamaitechnologies.com",   "city": "Osaka",   "region": "Osaka",   "country": "JP",   "loc": "34.6938,135.5011",   "org": "AS20940 Akamai International B.V.",   "postal": "543-0062",   "timezone": "Asia/Tokyo",   "readme": "https://ipinfo.io/missingauth" }
+2026-07-28 09:02:21 23.211.14.144   COUNT:1  ?? Akamai      AS20940 Akamai International B.V.   Osaka           JP
+                                                         
+ PS C:\Windows\system32> pathping 135.149.173.69
+
+최대 30홉 이상의 135.149.173.69(으)로 가는 경로 추적
+
+  0  LINUX-U54112123.Davolink [192.168.123.111]
+  1  192.168.123.1
+  2  192.168.219.1
+  3     *        *        *
+50초 동안 통계 계산 중...
+            여기에 공급      이 노드/링크
+홉   RTT    손실/보냄 = Pct  손실/보냄 = Pct  주소
+  0                                           LINUX-U54112123.Davolink [192.168.123.111]
+                                0/ 100 =  0%   |
+  1    4ms     0/ 100 =  0%     0/ 100 =  0%  192.168.123.1
+                                0/ 100 =  0%   |
+  2    4ms     0/ 100 =  0%     0/ 100 =  0%  192.168.219.1
+
+추적을 완료했습니다.
+PS C:\Windows\system32> pathping 23.211.14.144
+
+최대 30홉 이상의
+a23-211-14-144.deploy.static.akamaitechnologies.com [23.211.14.144](으)로 가는 경로 추적:
+  0  LINUX-U54112123.Davolink [192.168.123.111]
+  1  192.168.123.1
+  2  192.168.219.1
+  3     *        *        *
+50초 동안 통계 계산 중...
+            여기에 공급      이 노드/링크
+홉   RTT    손실/보냄 = Pct  손실/보냄 = Pct  주소
+  0                                           LINUX-U54112123.Davolink [192.168.123.111]
+                                0/ 100 =  0%   |
+  1    4ms     0/ 100 =  0%     0/ 100 =  0%  192.168.123.1
+                                0/ 100 =  0%   |
+  2    5ms     0/ 100 =  0%     0/ 100 =  0%  192.168.219.1                                                        
+
+PS C:\Windows\system32> tracert 135.149.173.69
+
+최대 30홉 이상의 135.149.173.69(으)로 가는 경로 추적
+
+  1     1 ms    <1 ms    <1 ms  192.168.123.1
+  2     9 ms     7 ms     7 ms  192.168.219.1
+  3     *        *        *     요청 시간이 만료되었습니다.
+  4     2 ms     1 ms     2 ms  10.244.133.21
+  5     3 ms     4 ms     2 ms  100.78.28.9
+  6     *        7 ms     7 ms  100.78.10.1
+  7     4 ms     4 ms     4 ms  1.213.145.22
+  8    13 ms     *        *     211.119.173.58
+  9     4 ms     4 ms     4 ms  po25.rwa04.sel30.ntwk.msn.net [51.10.53.168]
+ 10    27 ms    27 ms    26 ms  be1012.owr02.sel30.ntwk.msn.net [51.10.4.215]
+ 11    21 ms    20 ms    19 ms  be5.owr02.pus04.ntwk.msn.net [51.10.22.77]
+ 12    20 ms    20 ms    20 ms  be10.ibr02.pus04.ntwk.msn.net [51.10.39.108]
+ 13    19 ms    19 ms    19 ms  be5.ibr02.pus20.ntwk.msn.net [104.44.17.234]
+ 14    27 ms    27 ms    28 ms  be3.owr02.pus30.ntwk.msn.net [51.10.13.25]
+ 15    28 ms    33 ms    25 ms  be4.owr02.osa26.ntwk.msn.net [51.10.55.137]
+ 16    20 ms    20 ms    21 ms  be1.owr02.osa34.ntwk.msn.net [51.10.37.236]
+ 17    31 ms    26 ms    26 ms  be1011.rwa01.osa34.ntwk.msn.net [51.10.36.76]
+ 18     *        *        *     요청 시간이 만료되었습니다.
+ 19     *        *        *     요청 시간이 만료되었습니다.
+ 20     *        *        *     요청 시간이 만료되었습니다.
+ 21    19 ms    19 ms    18 ms  135.149.173.69
+
+추적을 완료했습니다.
+PS C:\Windows\system32> tracert 23.211.14.144
+
+최대 30홉 이상의
+a23-211-14-144.deploy.static.akamaitechnologies.com [23.211.14.144](으)로 가는 경로 추적:
+
+  1     1 ms     1 ms    <1 ms  192.168.123.1
+  2     2 ms     1 ms     2 ms  192.168.219.1
+  3     *        *        *     요청 시간이 만료되었습니다.
+  4     9 ms     7 ms     6 ms  10.244.133.21
+  5     9 ms     8 ms     8 ms  100.78.28.9
+  6     7 ms     4 ms    12 ms  100.78.9.1
+  7     *        *        *     요청 시간이 만료되었습니다.
+  8     4 ms     4 ms     4 ms  100.66.52.1
+  9    28 ms    28 ms    29 ms  100.67.55.22
+ 10    29 ms    28 ms    29 ms  100.67.57.6
+ 11     *        *        *     요청 시간이 만료되었습니다.
+ 12    30 ms    30 ms    29 ms  a23-211-14-144.deploy.static.akamaitechnologies.com [23.211.14.144]
+
+추적을 완료했습니다.
+
