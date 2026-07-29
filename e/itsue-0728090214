@@ -101,6 +101,113 @@ ec2-15-134-65-143.ap-southeast-2.compute.amazonaws.com [15.134.65.143](으)로 �
  30     *        *        *     요청 시간이 만료되었습니다.
 
 추적을 완료했습니다.
+
+PS C:\Windows\system32> tracert 15.134.65.143
+
+최대 30홉 이상의
+ec2-15-134-65-143.ap-southeast-2.compute.amazonaws.com [15.134.65.143](으)로 가는 경로 추적:
+
+  1     1 ms     1 ms     1 ms  192.168.123.1
+  2     9 ms     6 ms     8 ms  192.168.219.1
+  3     *        *        *     요청 시간이 만료되었습니다.
+  4     2 ms     1 ms     1 ms  10.244.133.21
+  5    19 ms     7 ms     7 ms  100.78.21.9
+  6     3 ms     5 ms     4 ms  1.208.179.117
+  7     3 ms     3 ms     3 ms  1.213.114.74
+  8     *        *        *     요청 시간이 만료되었습니다.
+  9     *        *        *     요청 시간이 만료되었습니다.
+ 10     *        *        *     요청 시간이 만료되었습니다.
+ 11     *        *        *     요청 시간이 만료되었습니다.
+ 12     *        *        *     요청 시간이 만료되었습니다.
+ 13     *        *        *     요청 시간이 만료되었습니다.
+ 14     *        *        *     요청 시간이 만료되었습니다.
+ 15     *        *        *     요청 시간이 만료되었습니다.
+ 16     *        *        *     요청 시간이 만료되었습니다.
+ 17     *        *        *     요청 시간이 만료되었습니다.
+ 18     *        *        *     요청 시간이 만료되었습니다.
+ 19     *        *        *     요청 시간이 만료되었습니다.
+ 20     *        *        *     요청 시간이 만료되었습니다.
+ 21     *        *        *     요청 시간이 만료되었습니다.
+ 22     *        *        *     요청 시간이 만료되었습니다.
+ 23     *        *        *     요청 시간이 만료되었습니다.
+ 24     *        *        *     요청 시간이 만료되었습니다.
+ 25     *        *        *     요청 시간이 만료되었습니다.
+ 26     *        *        *     요청 시간이 만료되었습니다.
+ 27     *        *        *     요청 시간이 만료되었습니다.
+ 28     *        *        *     요청 시간이 만료되었습니다.
+ 29     *        *        *     요청 시간이 만료되었습니다.
+ 30     *        *        *     요청 시간이 만료되었습니다.
+
+추적을 완료했습니다.
+PS C:\Windows\system32> ^C
+PS C:\Windows\system32> tracert 1.213.114.74
+
+최대 30홉 이상의 1.213.114.74(으)로 가는 경로 추적
+
+  1    10 ms     7 ms     7 ms  192.168.123.1
+  2     2 ms     1 ms     1 ms  192.168.219.1
+  3     2 ms     *        *     122.35.81.1
+  4     *        *        *     요청 시간이 만료되었습니다.
+  5     *        *        *     요청 시간이 만료되었습니다.
+  6     *        *        *     요청 시간이 만료되었습니다.
+  7     *        *        *     요청 시간이 만료되었습니다.
+  8     *        *        *     요청 시간이 만료되었습니다.
+  9     *        *        *     요청 시간이 만료되었습니다.
+ 10     *        *        *     요청 시간이 만료되었습니다.
+ 11     *        *        *     요청 시간이 만료되었습니다.
+ 12     *        *        *     요청 시간이 만료되었습니다.
+ 13     *        *        *     요청 시간이 만료되었습니다.
+ 14     *        *        *     요청 시간이 만료되었습니다.
+ 15     *        *        *     요청 시간이 만료되었습니다.
+ 16     *        *        *     요청 시간이 만료되었습니다.
+ 17     *        *        *     요청 시간이 만료되었습니다.
+ 18     *        *        *     요청 시간이 만료되었습니다.
+ 19     *        *        *     요청 시간이 만료되었습니다.
+ 20     *        *        *     요청 시간이 만료되었습니다.
+ 21     *        *        *     요청 시간이 만료되었습니다.
+ 22     *        *        *     요청 시간이 만료되었습니다.
+ 23     *        *        *     요청 시간이 만료되었습니다.
+ 24     *        *        *     요청 시간이 만료되었습니다.
+ 25     *        *        *     요청 시간이 만료되었습니다.
+ 26     *        *        *     요청 시간이 만료되었습니다.
+ 27     *        *        *     요청 시간이 만료되었습니다.
+ 28     *        *        *     요청 시간이 만료되었습니다.
+ 29     *        *        *     요청 시간이 만료되었습니다.
+ 30     *        *        *     요청 시간이 만료되었습니다.
+
+추적을 완료했습니다.
+PS C:\Windows\system32> tracert 122.35.81.1
+
+최대 30홉 이상의 122.35.81.1(으)로 가는 경로 추적
+
+  1     3 ms     1 ms     1 ms  192.168.123.1
+  2     9 ms     9 ms     6 ms  192.168.219.1
+  3     3 ms     3 ms     3 ms  122.35.81.1
+
+추적을 완료했습니다.
+PS C:\Windows\system32> Resolve-DnsName 122.35.81.1
+Resolve-DnsName : 1.81.35.122.in-addr.arpa : DNS 이름이 없습니다
+위치 줄:1 문자:1
++ Resolve-DnsName 122.35.81.1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (1.81.35.122.in-addr.arpa:String) [Resolve-DnsName], Win32Exception
+    + FullyQualifiedErrorId : DNS_ERROR_RCODE_NAME_ERROR,Microsoft.DnsClient.Commands.ResolveDnsName
+
+PS C:\Windows\system32> tracert 61.41.153.2
+
+최대 30홉 이상의
+pcns.bora.net [61.41.153.2](으)로 가는 경로 추적:
+
+  1     1 ms     1 ms     2 ms  192.168.123.1
+  2     1 ms     1 ms     1 ms  192.168.219.1
+  3     3 ms     *        2 ms  122.35.81.1
+  4     2 ms     2 ms     1 ms  10.244.133.17
+  5     2 ms     2 ms     2 ms  100.78.30.9
+  6     *        3 ms     3 ms  1.208.179.17
+  7     2 ms     7 ms     6 ms  100.68.1.142
+  8     3 ms     2 ms     2 ms  100.68.17.174
+  9   121 ms   100 ms    71 ms  pcns.bora.net [61.41.153.2]
+
 PS C:\Windows\system32> Test-NetConnection 15.134.65.143                                                                
 경고: Ping to 15.134.65.143 failed with status: TimedOut                                                                                                                                                                                                                                                                                                                ComputerName           : 15.134.65.143                                                                                  RemoteAddress          : 15.134.65.143                                                                                  InterfaceAlias         : Wi-Fi                                                                                          SourceAddress          : 192.168.123.111                                                                                PingSucceeded          : False                                                                                          PingReplyDetails (RTT) : 0 ms                                                                                                                                                                                                                   
 
@@ -215,3 +322,74 @@ a23-211-14-144.deploy.static.akamaitechnologies.com [23.211.14.144](으)로 가�
 
 추적을 완료했습니다.
 
+
+PS C:\Windows\system32> pathping 1.213.114.74
+
+최대 30홉 이상의 1.213.114.74(으)로 가는 경로 추적
+
+  0  LINUX-U54112123.Davolink [192.168.123.111]
+  1  192.168.123.1
+  2  192.168.219.1
+  3  122.35.81.1
+  4     *        *        *
+75초 동안 통계 계산 중...
+            여기에 공급      이 노드/링크
+홉   RTT    손실/보냄 = Pct  손실/보냄 = Pct  주소
+  0                                           LINUX-U54112123.Davolink [192.168.123.111]
+                                0/ 100 =  0%   |
+  1   10ms     0/ 100 =  0%     0/ 100 =  0%  192.168.123.1
+                                0/ 100 =  0%   |
+  2    9ms     0/ 100 =  0%     0/ 100 =  0%  192.168.219.1
+                                0/ 100 =  0%   |
+  3   13ms     0/ 100 =  0%     0/ 100 =  0%  122.35.81.1
+
+추적을 완료했습니다.
+PS C:\Windows\system32> pathping 122.35.81.1
+
+최대 30홉 이상의 122.35.81.1(으)로 가는 경로 추적
+
+  0  LINUX-U54112123.Davolink [192.168.123.111]
+  1  192.168.123.1
+  2  192.168.219.1
+  3  122.35.81.1
+
+75초 동안 통계 계산 중...
+            여기에 공급      이 노드/링크
+홉   RTT    손실/보냄 = Pct  손실/보냄 = Pct  주소
+  0                                           LINUX-U54112123.Davolink [192.168.123.111]
+                                0/ 100 =  0%   |
+  1    4ms     0/ 100 =  0%     0/ 100 =  0%  192.168.123.1
+                                0/ 100 =  0%   |                                                                          2    4ms     0/ 100 =  0%     0/ 100 =  0%  192.168.219.1                                                                                             0/ 100 =  0%   |                                                                          3    7ms     0/ 100 =  0%     0/ 100 =  0%  122.35.81.1                                                                                                                                                                                       추적을 완료했습니다.                                                                                                    PS C:\Windows\system32> nslookup 122.35.81.1                                                                            서버:    pcns.bora.net                                                                                                  Address:  61.41.153.2                                                                                                                                                                                                                           *** pcns.bora.net이(가) 122.35.81.1을(를) 찾을 수 없습니다. Non-existent domain                                         PS C:\Windows\system32> Text-NetConnection 122.35.81.1 -Port 53                                                         Text-NetConnection : 'Text-NetConnection' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식 되지 않습니다. 이름이 정확한지 확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.               위치 줄:1 문자:1                                                                                                        + Text-NetConnection 122.35.81.1 -Port 53                                                                               + ~~~~~~~~~~~~~~~~~~                                                                                                        + CategoryInfo          : ObjectNotFound: (Text-NetConnection:String) [], CommandNotFoundException                      + FullyQualifiedErrorId : CommandNotFoundException                                                                                                                                                                                          PS C:\Windows\system32> Test-NetConnection 122.35.81.1 -Port 53
+경고: TCP connect to (122.35.81.1 : 53) failed
+
+
+ComputerName           : 122.35.81.1
+RemoteAddress          : 122.35.81.1
+RemotePort             : 53
+InterfaceAlias         : Wi-Fi
+SourceAddress          : 192.168.123.111
+PingSucceeded          : True
+PingReplyDetails (RTT) : 2 ms
+TcpTestSucceeded       : False
+
+
+
+PS C:\Windows\system32> pathping 61.41.153.2
+
+최대 30홉 이상의
+pcns.bora.net [61.41.153.2](으)로 가는 경로 추적:
+  0  LINUX-U54112123.Davolink [192.168.123.111]
+  1  192.168.123.1
+  2  192.168.219.1
+  3     *        *        *
+50초 동안 통계 계산 중...
+            여기에 공급      이 노드/링크
+홉   RTT    손실/보냄 = Pct  손실/보냄 = Pct  주소
+  0                                           LINUX-U54112123.Davolink [192.168.123.111]
+                                0/ 100 =  0%   |
+  1    3ms     0/ 100 =  0%     0/ 100 =  0%  192.168.123.1
+                                0/ 100 =  0%   |
+  2    3ms     0/ 100 =  0%     0/ 100 =  0%  192.168.219.1
+
+추적을 완료했습니다.
+PS C:\Windows\system32>
